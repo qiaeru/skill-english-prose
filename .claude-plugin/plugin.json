@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "stop-slop",
+  "description": "Remove AI writing patterns from prose. Use when drafting, editing, or reviewing text to eliminate predictable AI tells.",
+  "keywords": ["writing", "prose", "english", "ai-tells", "skill"],
+  "version": "1.0.0",
+  "author": {
+    "name": "Qiaeru"
+  },
+  "homepage": "https://github.com/qiaeru/skill-english-prose",
+  "repository": "https://github.com/qiaeru/skill-english-prose",
+  "license": "MIT"
+}

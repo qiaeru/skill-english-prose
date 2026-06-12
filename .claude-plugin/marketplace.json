@@ -1,0 +1,16 @@
+{
+  "name": "skill-english-prose",
+  "owner": {
+    "name": "Qiaeru"
+  },
+  "metadata": {
+    "description": "Marketplace for the stop-slop plugin: a skill that removes predictable AI tells from English prose."
+  },
+  "plugins": [
+    {
+      "name": "stop-slop",
+      "source": "./",
+      "description": "Remove AI writing patterns from prose. Use when drafting, editing, or reviewing text to eliminate predictable AI tells."
+    }
+  ]
+}
