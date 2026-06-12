@@ -5,11 +5,11 @@ description: Remove AI writing patterns from English prose. Use when drafting, w
 
 # Writing English Prose
 
-Write English that reads like a good human writer, not like a model. Two failure modes count as slop. The first is the familiar AI gloss: filler phrases, formulaic contrasts, empty intensifiers, signature vocabulary, pull-quote bait. The second is overcorrection: prose compressed into six-word slogans until it reads like a LinkedIn post. The target sits between them. Fluent, natural US English, with concrete subjects, real verbs, and rhythm that varies because the ideas demand it.
+Write English that reads like a good human writer, not like a model. Two failure modes count as slop. The first is the familiar AI gloss: filler phrases, formulaic contrasts, empty intensifiers, signature vocabulary, pull-quote bait. The second is overcorrection: prose compressed into six-word slogans until it reads like a LinkedIn post. The target sits between them: fluent, natural US English, with concrete subjects, real verbs, and rhythm that varies because the ideas demand it.
 
 ## When to apply
 
-Apply to essays, blog posts, documentation, READMEs, emails, announcements, and any professional prose in US English. Skip fiction, poetry, lyrics, legal text, and direct quotes, where these rules would flatten a deliberate voice. Register target: plain American magazine prose (a good engineering blog, The Atlantic, a Paul Graham essay). Conversational but precise. Contractions are normal written English; use them.
+Apply to essays, blog posts, documentation, READMEs, emails, announcements, and any professional prose in US English. Skip fiction, poetry, lyrics, legal text, and direct quotes, where these rules would flatten a deliberate voice. Register target: plain American magazine prose (a good engineering blog, The Atlantic, a Paul Graham essay), conversational but precise. Contractions are normal written English; use them.
 
 ## Process
 
@@ -22,6 +22,16 @@ For a full edit or rewrite:
 5. Reread your own output with the same checks. The corrected text must pass the rules it enforces.
 
 For a short text (an email, a message, one paragraph), apply the rules without the scoring grid.
+
+## Special case: UI strings
+
+An interface file (application labels, locale files) mixes two registers; split by unit, not by file.
+
+**Micro-labels**: buttons, tabs, menu items, field labels, short titles, one-line notifications and errors. These are fragments, not sentences, so the sentence-architecture rules (flow, fragmentation, contrasts, rhythm) don't apply. Check only vocabulary and conventions: AI vocabulary, jargon, wordy constructions, and capitalization. Capitalization follows the platform convention (Title Case on Apple platforms, sentence case on Material and most of the web); pick one and keep it consistent across the product.
+
+**Rule 15 inverts on micro-labels.** In prose you vary the lexicon; in an interface the same action keeps the same word everywhere. If "Delete" labels one button, never alternate it with "Remove" or "Erase" elsewhere: users learn the interface's words, and consistency beats variety.
+
+**Longer strings**: descriptions, help text, confirmation bodies, explanatory error messages, onboarding copy. As soon as a string forms one or more full sentences, apply the whole skill.
 
 ## Core rules
 
@@ -57,13 +67,21 @@ For a short text (an email, a message, one paragraph), apply the rules without t
 
 16. **Follow US conventions.** Serial comma ("A, B, and C"). US spellings ("color," "organize," "toward"). Double quotation marks, with commas and periods inside. No Title Case on common nouns mid-sentence ("our marketing team," not "our Marketing Team").
 
+17. **Prefer verbs to nominalizations, and cut wordy connectors.** "Decide" over "make a decision," "analyze" over "conduct an analysis." "To" over "in order to," "because" over "due to the fact that," "can" over "is able to." Rewrite "There is/There are" openers around a real subject, and give impersonal directives ("It is essential to...") an actor. See [references/phrases.md](references/phrases.md).
+
+18. **Don't over-bullet.** Reserve bullet lists for genuinely parallel items (steps, parameters, an inventory). Two or three ideas linked by reasoning belong in a connected paragraph; the prose carries the logic that a list strips out.
+
 ## Quick checks
 
 Run each before delivering.
 
 - Three consecutive short fragments, or every sentence under ten words? Rebuild into flowing sentences.
 - Three consecutive sentences of matching length? Break one.
-- Empty intensifier ("really," "truly," "incredibly," "deeply")? Cut. Meaningful adverb ("slowly," "twice")? Keep.
+- Empty intensifier ("very," "really," "truly," "incredibly," "deeply," "extremely")? Cut. Meaningful adverb ("slowly," "twice")? Keep.
+- Nominalization doing a verb's job ("make a decision," "conduct an analysis")? Use the verb.
+- "In order to," "due to the fact that," "prior to," "is able to"? Use "to," "because," "before," "can."
+- "There is/There are" opening a sentence? Rewrite around a real subject.
+- "It is essential/important to..." with no actor? Name who must act.
 - Hedges stacked ("arguably," "in many ways," "to some extent" in one paragraph)? Keep at most one.
 - AI vocabulary ("delve," "leverage," "seamless," "robust," "navigate," "landscape," "unlock," "harness," "empower," "elevate," "testament," "tapestry")? Replace with the plain word.
 - "Moreover," "Furthermore," "Additionally" opening sentences? At most one connector opener per paragraph; usually just start the sentence.
@@ -84,6 +102,7 @@ Run each before delivering.
 - Semicolon where a period flows better? Replace. Keep it only to balance two related clauses.
 - Colon that only announces ("Here's the key insight:")? Cut the announcement.
 - Pull-quote sentence? Rewrite as a working sentence.
+- Bullet list carrying an argument? Convert to a connected paragraph; keep bullets for parallel items.
 - Missing serial comma, British spelling, or Title Case on a common noun? Fix to US convention.
 - Same word or sentence opener repeated at close range? Vary.
 

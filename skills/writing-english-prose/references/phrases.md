@@ -122,10 +122,62 @@ Replace with plain language.
 | Touch base | Talk, check in |
 | Low-hanging fruit | The easy wins (or name them) |
 
+## Wordy Constructions
+
+Multi-word detours around a short word. Replace on sight.
+
+| Avoid | Use instead |
+| --- | --- |
+| In order to | To |
+| Due to the fact that | Because |
+| Despite the fact that | Although |
+| In the event that | If |
+| Prior to | Before |
+| Subsequent to | After |
+| Is able to / has the ability to | Can |
+| A number of | Several, many |
+| The majority of | Most |
+| At this point in time | Now |
+| On a daily basis | Daily |
+| For the purpose of | To, for |
+| In the process of [doing] | [Doing] |
+| With regard to / in terms of | About, for, on |
+
+## Nominalizations
+
+A verb frozen into a noun, then propped up by a weak verb. Use the verb.
+
+| Avoid | Use instead |
+| --- | --- |
+| Make a decision | Decide |
+| Conduct an analysis / an evaluation | Analyze, evaluate |
+| Provide assistance | Help |
+| Reach a conclusion | Conclude |
+| Give consideration to | Consider |
+| Carry out an investigation | Investigate |
+| Perform a review | Review |
+| The implementation of X | Implementing X |
+| The creation of X | Creating X |
+
+## Expletive and Impersonal Openers
+
+"There is/There are" parks the real subject mid-sentence; rewrite around it: "There are three factors that slow the build" becomes "Three factors slow the build."
+
+Impersonal directives hide who must act. Name the actor, or address the reader.
+
+- "It is essential to" / "It is important to" → "Back up the database before..." or "You should..."
+- "It is recommended that" → name who recommends, or state the instruction
+- "It should be noted that" → cut; state the fact
+- "Care must be taken to" → "Be careful to," or name the risk
+
 ## Empty Intensifiers and Stacked Hedges
 
 Cut intensifiers that add no meaning:
 
+- "very"
+- "extremely"
+- "highly"
+- "absolutely"
 - "really"
 - "just"
 - "literally"

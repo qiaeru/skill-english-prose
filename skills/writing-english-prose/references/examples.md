@@ -24,6 +24,10 @@ Each "After" shows fluent, natural US English: full sentences that connect and b
 - 18\. Over-compression
 - 19\. Cliché closer
 - 20\. Pull-quote bait
+- 21\. Wordy constructions
+- 22\. Nominalization stack
+- 23\. Bulleted argument
+- 24\. Impersonal directives
 
 ## Example 1: Throat-Clearing + Binary Contrast
 
@@ -224,3 +228,48 @@ Each "After" shows fluent, natural US English: full sentences that connect and b
 > "A team's culture shows in what its managers let slide: tolerate missed handoffs for a quarter and missed handoffs become the norm."
 
 **Changes:** The aphorism chain became one working sentence with a concrete example; the insight survived, the poster format didn't.
+
+## Example 21: Wordy Constructions
+
+**Before:**
+> "In order to be able to deploy, it is necessary to obtain approval prior to the start of the release window, due to the fact that the pipeline is frozen during that period."
+
+**After:**
+> "To deploy, get approval before the release window opens, because the pipeline freezes once it starts."
+
+**Changes:** Five wordy detours became their short forms; thirty-two words became seventeen without losing a fact.
+
+## Example 22: Nominalization Stack
+
+**Before:**
+> "The team conducted an evaluation of the proposal, gave consideration to the risks, and made the decision to proceed with the implementation of the new system."
+
+**After:**
+> "The team evaluated the proposal, weighed the risks, and decided to roll out the new system."
+
+**Changes:** Four nominalizations became their verbs; the sentence gained a subject doing things instead of performing abstractions.
+
+## Example 23: Bulleted Argument
+
+**Before:**
+> We should migrate this quarter:
+>
+> - The old API is deprecated
+> - Support ends in June
+> - The team has capacity now
+> - Waiting increases risk
+
+**After:**
+> "We should migrate this quarter: the old API loses support in June, and the team has capacity now that it won't have once the summer releases start."
+
+**Changes:** The list hid the reasoning; the paragraph restores the links (deprecation explains the deadline, capacity is relative to what comes next) and drops the bullet that said nothing.
+
+## Example 24: Impersonal Directives
+
+**Before:**
+> "It is important to note that there are several settings that must be configured before the first run. It is recommended that a backup be performed."
+
+**After:**
+> "Configure the database path, the port, and the admin password before the first run, and back up your existing data first."
+
+**Changes:** Two impersonal openers and an expletive "there are" became direct instructions; "several settings" became the actual settings.

@@ -188,6 +188,19 @@ Decoration doing the work the sentence should do.
 | Title Case On Common Nouns mid-sentence ("our Marketing Team") | Lowercase; reserve capitals for proper nouns |
 | Missing serial comma ("A, B and C") | US convention: "A, B, and C" |
 
+## Bullet-Point Abuse
+
+Models convert reasoning into lists because lists are easy to generate. A bullet list strips out the connectors ("because," "so," "although") that carry the actual logic.
+
+| Pattern | Problem |
+| --- | --- |
+| An argument chopped into bullets | The reasoning between the points disappears |
+| Two- or three-item lists of related ideas | A connected paragraph says it better |
+| Bullets of full paragraphs | Neither a list nor prose; pick one |
+| Nested bullets two levels deep in prose | Structure replacing thought |
+
+**Instead:** Keep bullets for genuinely parallel items: numbered steps, parameters, an inventory, options of equal rank. For ideas linked by reasoning, write the paragraph and let the syntax show how they connect.
+
 ## Rhythm Patterns
 
 | Pattern | Fix |

@@ -13,7 +13,9 @@ This repository is a maintained fork of [hardikpandya/stop-slop](https://github.
 - Distribution as a Claude Code plugin: the repository is its own marketplace (`.claude-plugin/`), so the skill installs in one command and updates without re-copying. Manual copy stays supported.
 - Over-compression now counts as slop: the skill targets fluent, natural US English and rejects both AI gloss and slogan-stacked fragments, with a positive register target (plain American magazine prose) and a "Process" section fixing the order of application.
 - Coverage of recent model tells: rhetorical question transitions ("The result?"), see-saw constructions ("Less X, more Y"), ad-copy cascades ("No fluff. Just results."), marketing openers and cliché closers, AI vocabulary ("delve," "leverage," "seamless," "testament"), connector stacking, stacked hedges, chat artifacts, bold-for-emphasis, emoji in prose, and US conventions (serial comma, spellings, quotation punctuation).
-- The examples reference grows from five to twenty before-and-after pairs, and the README gains a quick test paragraph to verify the skill is loaded.
+- Plain-English wordiness families: wordy constructions ("in order to," "due to the fact that"), nominalizations ("make a decision" → "decide"), expletive "There is/There are" openers, and impersonal directives ("It is essential to") that must name an actor.
+- A rule against bullet-point abuse (arguments belong in connected paragraphs; bullets are for parallel items) and a special-case section for UI strings, where micro-labels skip the sentence-architecture rules and terminology consistency overrides lexical variety.
+- The examples reference grows from five to twenty-four before-and-after pairs, and the README gains a quick test paragraph to verify the skill is loaded.
 - Repository scaffolding shared with the sibling repos: generic `.gitignore` and `.gitattributes`, funding metadata, and this Keep a Changelog format.
 
 ### Changed
@@ -27,6 +29,7 @@ This repository is a maintained fork of [hardikpandya/stop-slop](https://github.
 ### Fixed
 
 - Example 4 used an em dash in its "After" version while the rules ban em dashes.
+- The SKILL.md introduction and register section used the dramatic fragments the skill itself bans.
 
 ## Upstream history (pre-fork)
 
