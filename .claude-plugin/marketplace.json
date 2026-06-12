@@ -4,13 +4,13 @@
     "name": "Qiaeru"
   },
   "metadata": {
-    "description": "Marketplace for the stop-slop plugin: a skill that removes predictable AI tells from English prose."
+    "description": "Marketplace for the writing-english-prose plugin: a skill that removes AI tells from English prose and targets fluent, natural US English."
   },
   "plugins": [
     {
-      "name": "stop-slop",
+      "name": "writing-english-prose",
       "source": "./",
-      "description": "Remove AI writing patterns from prose. Use when drafting, editing, or reviewing text to eliminate predictable AI tells."
+      "description": "Remove AI writing patterns from English prose. Use when drafting, writing, editing, reviewing, or proofreading US-English text. Replaces AI tells with fluent, natural American English."
     }
   ]
 }

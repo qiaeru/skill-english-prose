@@ -19,7 +19,9 @@ This repository is a maintained fork of [hardikpandya/stop-slop](https://github.
 ### Changed
 
 - Absolute rules softened where they produced their own tell: meaningful adverbs and legitimate passives are now allowed, and "two items beat three" becomes a rule against repeated triad cadence.
-- The skill folder now lives under `skills/stop-slop/` (moved from the root), the location the plugin format expects. Manual copies start from this new path.
+- The skill and the plugin are renamed `writing-english-prose`, matching the sibling skills' naming; upstream `stop-slop` stays cited as the original source. Invocation becomes `/writing-english-prose:writing-english-prose` (plugin) or `/writing-english-prose` (manual copy).
+- The skill folder now lives under `skills/writing-english-prose/` (moved from the upstream root), the location the plugin format expects. Manual copies start from this new path.
+- The SKILL.md frontmatter drops the upstream `metadata` block (inert for the runtime) and keeps the attribution in the license section; the `description` now carries the trigger words Anthropic's guidance recommends.
 - The README documents the fork: installation as a plugin or by manual copy, usage, limits, and how this repository tracks upstream.
 
 ### Fixed

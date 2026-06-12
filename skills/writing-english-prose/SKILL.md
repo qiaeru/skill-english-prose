@@ -1,12 +1,9 @@
 ---
-name: stop-slop
-description: Remove AI writing patterns from English prose. Use when drafting, editing, or reviewing US-English text. Replaces AI tells with fluent, natural American English, built on concrete subjects, real verbs, plain idiomatic wording, and varied rhythm.
-metadata:
-  trigger: Writing prose, editing drafts, reviewing content for AI patterns
-  author: Hardik Pandya (https://hvpandya.com), fork maintained by Qiaeru
+name: writing-english-prose
+description: Remove AI writing patterns from English prose. Use when drafting, writing, editing, reviewing, or proofreading US-English text (essays, posts, docs, emails). Replaces AI tells with fluent, natural American English built on concrete subjects, real verbs, plain wording, and varied rhythm.
 ---
 
-# Stop Slop
+# Writing English Prose
 
 Write English that reads like a good human writer, not like a model. Two failure modes count as slop. The first is the familiar AI gloss: filler phrases, formulaic contrasts, empty intensifiers, signature vocabulary, pull-quote bait. The second is overcorrection: prose compressed into six-word slogans until it reads like a LinkedIn post. The target sits between them. Fluent, natural US English, with concrete subjects, real verbs, and rhythm that varies because the ideas demand it.
 
@@ -108,6 +105,6 @@ Below 35/50: revise.
 
 See [references/examples.md](references/examples.md) for before/after transformations.
 
-## License
+## License and attribution
 
-MIT. Based on [stop-slop](https://github.com/hardikpandya/stop-slop) by Hardik Pandya; this is a maintained fork.
+MIT. Maintained fork of [stop-slop](https://github.com/hardikpandya/stop-slop) by Hardik Pandya, the original source of this skill.
