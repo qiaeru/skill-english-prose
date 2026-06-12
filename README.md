@@ -4,7 +4,7 @@ A Claude Code skill that removes predictable AI writing patterns from English pr
 
 This repository is a maintained fork of [stop-slop](https://github.com/hardikpandya/stop-slop) by [Hardik Pandya](https://hvpandya.com). The fork exists to keep the skill updated on a regular cadence, to package it as a Claude Code plugin, and to adapt the rules over time. Upstream history is preserved, so improvements published there can still be merged in.
 
-The skill targets the tells that make text read as machine-written: filler phrases and throat-clearing openers, formulaic structures (binary contrasts, negative listings, dramatic fragmentation), passive voice, vague declaratives, flattened rhythm, and pull-quote bait. Rules live in [SKILL.md](skills/stop-slop/SKILL.md), with the full catalogs in the references folder.
+The skill treats two failure modes as slop. The first is the familiar AI gloss: filler phrases and throat-clearing openers, formulaic structures (binary contrasts, negative listings, rhetorical question transitions), signature vocabulary ("delve," "leverage," "seamless"), passive voice hiding the actor, vague declaratives, and pull-quote bait. The second is overcorrection, prose compressed into six-word slogans until it reads like a LinkedIn post. The target sits between them: fluent, natural US English with concrete subjects, real verbs, and varied rhythm. Rules and the five-axis scoring grid live in [SKILL.md](skills/stop-slop/SKILL.md), with the full catalogs in the references folder.
 
 ## Layout
 
@@ -58,7 +58,15 @@ When the skill changes in this repo, re-copy the `skills/stop-slop/` folder into
 
 Once installed, the skill triggers whenever you ask Claude to draft, edit, or review English text; Claude recognizes the request from the skill's `description` and applies the rules on its own. You can also invoke it explicitly by name for a full pass (`/stop-slop:stop-slop` when installed as a plugin, `/stop-slop` when copied manually), which forces a rule-by-rule review against the reference catalogs.
 
-The skill works in three layers, which you can read separately. `SKILL.md` holds the core rules and the quick checks. [references/phrases.md](skills/stop-slop/references/phrases.md) catalogs the filler phrases, emphasis crutches, and hedges to cut. [references/structures.md](skills/stop-slop/references/structures.md) covers the formulaic shapes (contrasts, listings, rhythm patterns, word patterns), and [references/examples.md](skills/stop-slop/references/examples.md) shows before-and-after rewrites.
+The skill works in three layers, which you can read separately. `SKILL.md` holds the sixteen core rules, the quick checks, and the scoring grid (five axes: flow, directness, concreteness, authenticity, economy, with a rewrite threshold at 35 of 50). [references/phrases.md](skills/stop-slop/references/phrases.md) catalogs the phrases to cut: throat-clearing openers, marketing openers and closers, AI vocabulary, business jargon, empty intensifiers, stacked hedges, and chat artifacts. [references/structures.md](skills/stop-slop/references/structures.md) covers the formulaic shapes (contrasts, see-saws, fragmentation, over-compression, false agency, punctuation habits), and [references/examples.md](skills/stop-slop/references/examples.md) shows twenty before-and-after rewrites.
+
+## Quick test
+
+To check that the skill is loaded and working, give Claude the paragraph below and ask it to improve it with `stop-slop`. The paragraph packs most of the covered tells on purpose: marketing opener, AI vocabulary, rhetorical question transition, ad-copy fragments, connector stacking, fake audience range, vague declarative, and an emphasis crutch.
+
+> In today's fast-paced digital landscape, leveraging AI isn't just a game-changer; it's a necessity. The result? Teams that seamlessly navigate complexity. No fluff. No filler. Just results. Moreover, it's important to note that this approach truly empowers organizations to unlock their full potential. Whether you're a scrappy startup or a Fortune 500, the implications are significant. Let that sink in.
+
+If the skill is active, Claude should identify most of these tells, rewrite the paragraph as flowing sentences with a concrete subject and a named gain, and score the result above 35 of 50. If the reply keeps the fragments and the question-answer transition, or merely compresses everything into slogans, the skill was not loaded.
 
 ## Tracking upstream
 
@@ -76,7 +84,7 @@ The skill files keep their upstream layout inside `skills/stop-slop/` (a straigh
 
 - The skill targets AI tells in English prose only. For French, see the sibling [skill-prose-francaise](https://github.com/qiaeru/skill-prose-francaise), an original adaptation built for how the same tics surface in French.
 - It is not a grammar or spell checker, and it does not verify facts or arguments. It judges form: phrasing, structure, rhythm.
-- Its register is direct, informal-professional prose (essays, posts, docs). Some rules (no adverbs, no passive voice) are deliberately absolute and may need loosening for fiction or formal writing; the author keeps the final say.
+- Its register is plain American magazine prose (essays, posts, docs, professional email). It deliberately skips fiction, poetry, lyrics, legal text, and direct quotes, where the rules would flatten a deliberate voice; the author keeps the final say.
 
 ## License
 

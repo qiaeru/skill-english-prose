@@ -11,12 +11,20 @@ This repository is a maintained fork of [hardikpandya/stop-slop](https://github.
 ### Added
 
 - Distribution as a Claude Code plugin: the repository is its own marketplace (`.claude-plugin/`), so the skill installs in one command and updates without re-copying. Manual copy stays supported.
+- Over-compression now counts as slop: the skill targets fluent, natural US English and rejects both AI gloss and slogan-stacked fragments, with a positive register target (plain American magazine prose) and a "Process" section fixing the order of application.
+- Coverage of recent model tells: rhetorical question transitions ("The result?"), see-saw constructions ("Less X, more Y"), ad-copy cascades ("No fluff. Just results."), marketing openers and cliché closers, AI vocabulary ("delve," "leverage," "seamless," "testament"), connector stacking, stacked hedges, chat artifacts, bold-for-emphasis, emoji in prose, and US conventions (serial comma, spellings, quotation punctuation).
+- The examples reference grows from five to twenty before-and-after pairs, and the README gains a quick test paragraph to verify the skill is loaded.
 - Repository scaffolding shared with the sibling repos: generic `.gitignore` and `.gitattributes`, funding metadata, and this Keep a Changelog format.
 
 ### Changed
 
+- Absolute rules softened where they produced their own tell: meaningful adverbs and legitimate passives are now allowed, and "two items beat three" becomes a rule against repeated triad cadence.
 - The skill folder now lives under `skills/stop-slop/` (moved from the root), the location the plugin format expects. Manual copies start from this new path.
 - The README documents the fork: installation as a plugin or by manual copy, usage, limits, and how this repository tracks upstream.
+
+### Fixed
+
+- Example 4 used an em dash in its "After" version while the rules ban em dashes.
 
 ## Upstream history (pre-fork)
 

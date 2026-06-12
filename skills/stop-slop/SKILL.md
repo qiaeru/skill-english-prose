@@ -1,61 +1,106 @@
 ---
 name: stop-slop
-description: Remove AI writing patterns from prose. Use when drafting, editing, or reviewing text to eliminate predictable AI tells.
+description: Remove AI writing patterns from English prose. Use when drafting, editing, or reviewing US-English text. Replaces AI tells with fluent, natural American English, built on concrete subjects, real verbs, plain idiomatic wording, and varied rhythm.
 metadata:
   trigger: Writing prose, editing drafts, reviewing content for AI patterns
-  author: Hardik Pandya (https://hvpandya.com)
+  author: Hardik Pandya (https://hvpandya.com), fork maintained by Qiaeru
 ---
 
 # Stop Slop
 
-Eliminate predictable AI writing patterns from prose.
+Write English that reads like a good human writer, not like a model. Two failure modes count as slop. The first is the familiar AI gloss: filler phrases, formulaic contrasts, empty intensifiers, signature vocabulary, pull-quote bait. The second is overcorrection: prose compressed into six-word slogans until it reads like a LinkedIn post. The target sits between them. Fluent, natural US English, with concrete subjects, real verbs, and rhythm that varies because the ideas demand it.
 
-## Core Rules
+## When to apply
 
-1. **Cut filler phrases.** Remove throat-clearing openers, emphasis crutches, and all adverbs. See [references/phrases.md](references/phrases.md).
+Apply to essays, blog posts, documentation, READMEs, emails, announcements, and any professional prose in US English. Skip fiction, poetry, lyrics, legal text, and direct quotes, where these rules would flatten a deliberate voice. Register target: plain American magazine prose (a good engineering blog, The Atlantic, a Paul Graham essay). Conversational but precise. Contractions are normal written English; use them.
 
-2. **Break formulaic structures.** Avoid binary contrasts, negative listings, dramatic fragmentation, rhetorical setups, false agency. See [references/structures.md](references/structures.md).
+## Process
 
-3. **Use active voice.** Every sentence needs a human subject doing something. No passive constructions. No inanimate objects performing human actions ("the complaint becomes a fix").
+For a full edit or rewrite:
 
-4. **Be specific.** No vague declaratives ("The reasons are structural"). Name the specific thing. No lazy extremes ("every," "always," "never") doing vague work.
+1. Read the whole text before correcting anything; rhythm, repetition, and cadence tells only show across paragraphs.
+2. Apply the core rules, opening the references as needed.
+3. Run the quick checks on the result.
+4. Score on the five axes; rewrite below 35/50.
+5. Reread your own output with the same checks. The corrected text must pass the rules it enforces.
 
-5. **Put the reader in the room.** No narrator-from-a-distance voice. "You" beats "People." Specifics beat abstractions.
+For a short text (an email, a message, one paragraph), apply the rules without the scoring grid.
 
-6. **Vary rhythm.** Mix sentence lengths. Two items beat three. End paragraphs differently. No em dashes.
+## Core rules
 
-7. **Trust readers.** State facts directly. Skip softening, justification, hand-holding.
+1. **Write sentences that flow.** Most sentences carry one idea in roughly 12 to 25 words and connect to their neighbors. A short sentence is a tool for emphasis; it works once per stretch, not as the default. Stacked fragments ("No fluff. No filler. Just results.") are as much a tell as bloat. See [references/structures.md](references/structures.md).
 
-8. **Cut quotables.** If it sounds like a pull-quote, rewrite it.
+2. **Cut filler phrases.** Throat-clearing openers, emphasis crutches, marketing openers and closers, chat artifacts. See [references/phrases.md](references/phrases.md).
 
-## Quick Checks
+3. **Use plain words.** Prefer the short Anglo-Saxon word to the Latinate one: "use" over "utilize," "start" over "embark on," "dig into" over "delve into." The AI vocabulary list ("leverage," "seamless," "robust," "tapestry," "testament") is in [references/phrases.md](references/phrases.md).
 
-Before delivering prose:
+4. **Break formulaic structures.** Binary contrasts, negative listings, see-saw constructions, rhetorical setups, triad cadence. See [references/structures.md](references/structures.md).
 
-- Any adverbs? Kill them.
-- Any passive voice? Find the actor, make them the subject.
-- Inanimate thing doing a human verb ("the decision emerges")? Name the person.
-- Sentence starts with a Wh- word? Restructure it.
-- Any "here's what/this/that" throat-clearing? Cut to the point.
-- Any "not X, it's Y" contrasts? State Y directly.
-- Three consecutive sentences match length? Break one.
-- Paragraph ends with punchy one-liner? Vary it.
-- Em-dash anywhere? Remove it.
+5. **Prefer active voice.** Find the actor and put them at the front. Passive stays legitimate when the actor is unknown or beside the point ("he was arrested in May"); the tell is passive used to dodge naming who did what.
+
+6. **No false agency.** Complaints don't become fixes, decisions don't emerge, data doesn't tell. Name the person who acted; when no specific person fits, use "you."
+
+7. **Be specific.** No vague declaratives ("the implications are significant"). Name the implication, with a number or a concrete object when one exists, even if the sentence gets longer.
+
+8. **Put the reader in the room.** "You" beats "people," a scene beats a generalization, the lecturer-from-a-distance voice ("This happens because...") goes.
+
+9. **Cut empty intensifiers and stacked hedges.** "Really," "truly," "deeply," "fundamentally," "incredibly" add nothing. Keep adverbs that change meaning ("slowly," "twice," "rarely," "yesterday"). One deliberate hedge is honesty; three reflexive ones are the tell.
+
+10. **Kill meta-commentary.** No signposting ("In this post, we'll..."), no self-narration ("Let's dive in"), no permission-granting ("And that's okay"). Enter the point directly.
+
+11. **No typographic crutches.** No em dashes; use a comma, a period, or parentheses. No bold for emphasis mid-prose, no emoji in prose: if a word must stand out, rewrite the sentence so it does. Semicolons only to balance two related clauses; colons only when they introduce something real.
+
+12. **Don't answer your own rhetorical questions.** "The result? Faster builds." is a transition wearing a costume. State it: "Builds got faster."
+
+13. **Trust readers.** State facts directly; skip softening, justification, and hand-holding. Cut "it's important to note," "needless to say," and every sentence that tells readers what they're about to understand.
+
+14. **Cut quotables.** If a sentence sounds like a pull-quote or a slide title, rewrite it as a working sentence.
+
+15. **Vary everything that repeats.** Sentence lengths, paragraph endings, item counts in lists, sentence openers. Three matching lengths in a row, or every paragraph landing on a zinger, reads machine-made.
+
+16. **Follow US conventions.** Serial comma ("A, B, and C"). US spellings ("color," "organize," "toward"). Double quotation marks, with commas and periods inside. No Title Case on common nouns mid-sentence ("our marketing team," not "our Marketing Team").
+
+## Quick checks
+
+Run each before delivering.
+
+- Three consecutive short fragments, or every sentence under ten words? Rebuild into flowing sentences.
+- Three consecutive sentences of matching length? Break one.
+- Empty intensifier ("really," "truly," "incredibly," "deeply")? Cut. Meaningful adverb ("slowly," "twice")? Keep.
+- Hedges stacked ("arguably," "in many ways," "to some extent" in one paragraph)? Keep at most one.
+- AI vocabulary ("delve," "leverage," "seamless," "robust," "navigate," "landscape," "unlock," "harness," "empower," "elevate," "testament," "tapestry")? Replace with the plain word.
+- "Moreover," "Furthermore," "Additionally" opening sentences? At most one connector opener per paragraph; usually just start the sentence.
+- Passive hiding a known actor? Name them up front.
+- Inanimate thing doing a human verb ("the decision emerged")? Name the person.
+- "Not X. But Y." or "isn't just X; it's Y"? State Y.
+- "Less X, more Y" or "Think X, not Y" see-saw? Write the full sentence.
+- Negative listing ("It's not A. It's not B. It's C.")? State C.
+- Rhetorical question answered immediately ("The catch? ...")? State it.
+- Pseudo-cleft opener ("What makes this hard is...")? Name the thing: "The constraint is..."
+- Throat-clearing ("Here's the thing," "Let me be clear," "The truth is")? Cut to the point.
+- Marketing opener ("In a world where," "In today's fast-paced," "Whether you're X or Y")? Cut or name the actual audience.
+- Cliché closer ("In conclusion," "At the end of the day," "X is here to stay," "Only time will tell")? End on substance.
 - Vague declarative ("The implications are significant")? Name the specific implication.
-- Narrator-from-a-distance ("Nobody designed this")? Put the reader in the scene.
-- Meta-joiners ("The rest of this essay...")? Delete. Let the essay move.
+- Triad cadence everywhere ("clear, concise, and compelling")? Vary item counts; two or one often beats three.
+- Em dash? Comma, period, or parentheses.
+- Bold emphasis or emoji in prose? Remove; rewrite if the word needs weight.
+- Semicolon where a period flows better? Replace. Keep it only to balance two related clauses.
+- Colon that only announces ("Here's the key insight:")? Cut the announcement.
+- Pull-quote sentence? Rewrite as a working sentence.
+- Missing serial comma, British spelling, or Title Case on a common noun? Fix to US convention.
+- Same word or sentence opener repeated at close range? Vary.
 
 ## Scoring
 
-Rate 1-10 on each dimension:
+Rate 1-10 on each axis.
 
-| Dimension | Question |
-|-----------|----------|
-| Directness | Statements or announcements? |
-| Rhythm | Varied or metronomic? |
-| Trust | Respects reader intelligence? |
-| Authenticity | Sounds human? |
-| Density | Anything cuttable? |
+| Axis | Question |
+| --- | --- |
+| Flow | Do sentences connect and breathe, or stack as fragments or bloat? |
+| Directness | Statements, or announcements and setups? |
+| Concreteness | Named actors, numbers, specific objects? |
+| Authenticity | Sounds like a person who writes well, not a model or a brand? |
+| Economy | Anything cuttable without breaking the rhythm? |
 
 Below 35/50: revise.
 
@@ -65,4 +110,4 @@ See [references/examples.md](references/examples.md) for before/after transforma
 
 ## License
 
-MIT
+MIT. Based on [stop-slop](https://github.com/hardikpandya/stop-slop) by Hardik Pandya; this is a maintained fork.
