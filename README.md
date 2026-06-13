@@ -2,7 +2,7 @@
 
 `writing-english-prose`, a Claude Code skill that removes predictable AI writing patterns from English prose.
 
-This repository is a maintained fork of [stop-slop](https://github.com/hardikpandya/stop-slop) by [Hardik Pandya](https://hvpandya.com). The fork exists to keep the skill updated on a regular cadence, to package it as a Claude Code plugin, and to adapt the rules over time. Upstream history is preserved, so improvements published there can still be merged in.
+This repository is a maintained fork of [stop-slop](https://github.com/hardikpandya/stop-slop) by [Hardik Pandya](https://hvpandya.com). The fork exists to update the skill regularly, package it as a Claude Code plugin, and adapt the rules over time. It preserves the upstream git history, so you can still merge in improvements published there.
 
 The skill treats two failure modes as slop. The first is the familiar AI gloss: filler phrases and throat-clearing openers, formulaic structures (binary contrasts, negative listings, rhetorical question transitions), signature vocabulary ("delve," "leverage," "seamless"), passive voice hiding the actor, vague declaratives, and pull-quote bait. The second is overcorrection, prose compressed into six-word slogans until it reads like a LinkedIn post. The target sits between them: fluent, natural US English with concrete subjects, real verbs, and varied rhythm. Rules and the five-axis scoring grid live in [SKILL.md](skills/writing-english-prose/SKILL.md), with the full catalogs in the references folder.
 
@@ -50,7 +50,7 @@ When a new version of the plugin is published, update it with `/plugin update wr
 
 Claude Code also loads a project's standalone skills from the `.claude/skills/` folder at the root of that project, and global skills from `~/.claude/skills/`.
 
-To install the skill this way, copy the [skills/writing-english-prose/](skills/writing-english-prose/) folder into that project's `.claude/skills/` directory, creating that directory if it does not exist. For an installation that applies to all your projects, copy the same folder into `~/.claude/skills/` instead. Restart Claude Code so the skill is detected.
+To install the skill this way, copy the [skills/writing-english-prose/](skills/writing-english-prose/) folder into that project's `.claude/skills/` directory, creating that directory if it does not exist. For an installation that applies to all your projects, copy the same folder into `~/.claude/skills/` instead. Restart Claude Code so it detects the skill.
 
 When the skill changes in this repo, re-copy the `skills/writing-english-prose/` folder into the target project's `.claude/skills/` (or its global equivalent) and restart Claude Code, since skill content is not hot-reloaded.
 
@@ -70,7 +70,7 @@ If the skill is active, Claude should identify most of these tells, rewrite the 
 
 ## Tracking upstream
 
-The fork keeps the upstream repository as a git remote, so its improvements can be reviewed and merged:
+The fork keeps the upstream repository as a git remote, so you can review and merge its improvements:
 
 ```bash
 git fetch upstream

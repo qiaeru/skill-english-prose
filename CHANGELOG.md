@@ -8,6 +8,10 @@ This repository is a maintained fork of [hardikpandya/stop-slop](https://github.
 
 ## [Unreleased]
 
+### Changed
+
+- Recast three README sentences in active voice (fork rationale, install, upstream tracking) so the repo's own prose passes the skill's voice rule.
+
 ## [1.0.0] - 2026-06-12
 
 ### Added
