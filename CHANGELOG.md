@@ -8,6 +8,8 @@ This repository is a maintained fork of [hardikpandya/stop-slop](https://github.
 
 ## [Unreleased]
 
+## [1.1.0] - 2026-06-25
+
 ### Added
 
 - New tells drawn from the data-ranked catalog in [JCarterJohnson/vibecoded-design-tells](https://github.com/JCarterJohnson/vibecoded-design-tells) (MIT), kept where they fit the fluency philosophy: bold-label lead-ins (`**Speed:** ...`), leftover assistant boilerplate ("As an AI language model") and trailing meta-offers, the both-sides menu that dodges a stance, hollow paragraphs that restate the prompt, fake-relatability openers ("Honestly," "Look, I get it"), listicle and five-paragraph templates, and structural emoji and `---` dividers.
