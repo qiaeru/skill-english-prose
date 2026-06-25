@@ -73,6 +73,19 @@ The inverse failure. Stripping every sentence to a slogan produces a different k
 
 **Instead:** Let most sentences run 12 to 25 words and carry one idea each, connected by ordinary syntax ("because," "which," "so," "although"). Save the short sentence for the one moment that earns it.
 
+## The Over-Corrected Register
+
+Over-compression is one move in a larger tell: the "trying not to sound like AI" voice. Replacing the smooth default with a forced-casual default is still a default, and readers clock it as fast as the gloss it replaced.
+
+| Pattern | Problem |
+| --- | --- |
+| A sentence contorted to dodge an em dash, or a colon or ellipsis dropped where the dash was | The bending is as legible as the dash; the fix for a dash is a comma or a period |
+| Bolted-on casualness ("lol," a lowercase "i," a swear for flavor) on otherwise-careful prose | Costume, not voice |
+| Deliberately-inserted typos ("excyted," "annownce") to beat a detector | Itself a tell, and a worse one |
+| Conspicuous lowercase or slang grafted onto a formal piece | The strain reads |
+
+**Instead:** Apply the fixes only as far as a real sentence wants them, and use the comma and period you would actually write. A formal register chosen on purpose is not slop; the tell is the unchosen default, in either direction.
+
 ## Rhetorical Question Transitions
 
 Asking a question only to answer it in the next breath. A transition wearing a costume.
@@ -123,6 +136,8 @@ A genuine question or a Wh- sentence is fine in moderation; the tell is the clef
 | "X that isn't Y" | Indirect. Say "X is broken" |
 | "X: Why Y Matters" (titles) | Colon-headline template |
 | "The Power of X" / "Unlocking X" / "A Deep Dive into X" (titles) | Content-farm headline |
+| "7 ways to X" / "5 signs that Y" / "N things..." (listicle headlines) | Content-farm scaffolding; write the piece, not the countdown |
+| Fixed intro / three body paragraphs / "in summary" conclusion | A template, not a structure; let the order follow the argument, and most pieces need no recap |
 
 ## False Agency
 
@@ -173,8 +188,11 @@ Decoration doing the work the sentence should do.
 | Pattern | Fix |
 | --- | --- |
 | Bold words scattered through prose | If a word must stand out, rewrite the sentence so it does |
+| Bold-label lead-ins (`**Speed:** the build...`) starting list items or paragraphs | Drop the boldface label; write a normal sentence or a real heading |
 | Emoji in prose (🚀, ✅, 💡) | Delete; the word carries the meaning |
+| Emoji as bullet markers or section headings | Plain markers and text headings; an emoji inside a sentence is a separate call |
 | Em dashes | Comma, period, or parentheses |
+| Horizontal-rule dividers (`---`) between sections | Use paragraph breaks or a heading |
 | ALL CAPS for emphasis | Rewrite |
 | Scare "quotes" around ordinary words | Remove, or commit to the word |
 

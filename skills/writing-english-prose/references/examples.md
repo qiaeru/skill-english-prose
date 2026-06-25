@@ -28,6 +28,8 @@ Each "After" shows fluent, natural US English: full sentences that connect and b
 - 22\. Nominalization stack
 - 23\. Bulleted argument
 - 24\. Impersonal directives
+- 25\. Bolded lead-in labels
+- 26\. Both-sides menu
 
 ## Example 1: Throat-Clearing + Binary Contrast
 
@@ -273,3 +275,23 @@ Each "After" shows fluent, natural US English: full sentences that connect and b
 > "Configure the database path, the port, and the admin password before the first run, and back up your existing data first."
 
 **Changes:** Two impersonal openers and an expletive "there are" became direct instructions; "several settings" became the actual settings.
+
+## Example 25: Bolded Lead-In Labels
+
+**Before:**
+> "Our process has three stages. **Discovery:** we interview your users. **Design:** we prototype the top flows. **Delivery:** we ship and measure."
+
+**After:**
+> "Our process runs in three stages. We interview your users, prototype the flows they struggle with most, then ship those flows and measure whether the struggle goes away."
+
+**Changes:** Dropped the bold-label scaffolding that formats a chat answer as prose; the connected sentences carry the same three stages and show how each one feeds the next.
+
+## Example 26: Both-Sides Menu
+
+**Before:**
+> "Should you use a monorepo? On one hand, it simplifies dependency management. On the other hand, it complicates CI. Ultimately, it depends on your needs."
+
+**After:**
+> "Use a monorepo if your teams share code daily, because the simpler dependency management outweighs the slower CI. If they don't, the CI cost buys you nothing."
+
+**Changes:** Replaced the non-committal menu with a stance and the one condition that decides it.

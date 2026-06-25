@@ -67,7 +67,7 @@ Endings that gesture at significance instead of landing on substance. End on a c
 
 ## AI Vocabulary
 
-Words a model reaches for and a person rarely does. Prefer the short, plain word; when the replacement column names a strategy ("name the X"), rewrite the sentence around the concrete thing.
+Words a model reaches for and a person rarely does. Prefer the short, plain word; when the replacement column names a strategy ("name the X"), rewrite the sentence around the concrete thing. Weight by density: the loud entries ("delve," "tapestry," "leverage," "seamless") go on sight, but the borderline ones that double as ordinary English ("robust," "comprehensive," "navigate," "utilize") are a tell when they cluster, not on a lone instance in otherwise-human prose.
 
 | Avoid | Use instead |
 | --- | --- |
@@ -200,6 +200,8 @@ Keep adverbs that change the meaning of the verb: "slowly," "twice," "rarely," "
 
 Hedges follow the same logic. One deliberate hedge ("probably," "in most cases") is honest writing. The tell is the reflexive stack: "arguably," "in many ways," "to some extent," "it could be argued," "more often than not" piling up in one paragraph. Keep at most one, and only where the uncertainty is real.
 
+Hedging into a both-sides menu is the same dodge wearing a structure: "on one hand... on the other," "it depends," a balanced list of every option instead of a stance. Models do this to avoid being wrong. Take a position, then name the real trade-off if one exists.
+
 ## Connector Stacking
 
 Models open consecutive sentences with formal connectors. Most sentences need none; the logic should carry across the period.
@@ -236,6 +238,11 @@ Assistant-voice remnants that mark text as model output. Delete on sight.
 - "I hope this helps"
 - "Feel free to"
 - "Happy to elaborate"
+- "As an AI language model" / "I cannot assist with that"
+- "As of my last knowledge update" (and other knowledge-cutoff disclaimers)
+- "Would you like me to..." / "Want me to tweak the tone?" / "Let me know if you'd like..."
+
+The trailing offer ("Want me to expand this?") and the boilerplate disclaimer are the clearest proof a model wrote the text; cut every trace before publishing.
 
 ## Meta-Commentary
 
@@ -263,6 +270,9 @@ False intimacy or manufactured sincerity:
 - "They exist, I promise"
 - "Trust me on this"
 - "And that's the part nobody tells you"
+- "Honestly," (opening a sentence to perform candor)
+- "Look, I get it" / "I get it"
+- "Imagine this:"
 
 ## Telling Instead of Showing
 
@@ -286,3 +296,5 @@ Sentences that announce importance without naming the specific thing. Kill these
 - "This changes everything"
 
 If a sentence says something is important/deep/structural without showing the specific thing, cut it or replace it with the specific thing.
+
+The same emptiness scales to the paragraph: prose that is fluent, grammatical, and restates the prompt without making a claim. Test each paragraph by deleting it; if nothing is lost, it said nothing. Make a real claim or cut it.

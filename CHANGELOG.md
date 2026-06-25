@@ -8,6 +8,13 @@ This repository is a maintained fork of [hardikpandya/stop-slop](https://github.
 
 ## [Unreleased]
 
+### Added
+
+- New tells drawn from the data-ranked catalog in [JCarterJohnson/vibecoded-design-tells](https://github.com/JCarterJohnson/vibecoded-design-tells) (MIT), kept where they fit the fluency philosophy: bold-label lead-ins (`**Speed:** ...`), leftover assistant boilerplate ("As an AI language model") and trailing meta-offers, the both-sides menu that dodges a stance, hollow paragraphs that restate the prompt, fake-relatability openers ("Honestly," "Look, I get it"), listicle and five-paragraph templates, and structural emoji and `---` dividers.
+- A "Weighing tells" section in SKILL.md: weight a pattern by how thickly it clusters, so the loud vocabulary still goes on sight while borderline words ("robust," "comprehensive," "navigate") count only as a cluster. The em dash and assistant boilerplate stay the two single-instance exceptions.
+- A structures entry, "The Over-Corrected Register," naming the forced-casual default as its own tell: em-dash dodging that contorts the sentence, bolted-on casualness ("lol," lowercase "i"), and detector-beating fake typos.
+- Two before/after pairs (bolded lead-in labels, both-sides menu), bringing the examples reference to twenty-six.
+
 ### Changed
 
 - Recast three README sentences in active voice (fork rationale, install, upstream tracking) so the repo's own prose passes the skill's voice rule.
