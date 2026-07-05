@@ -8,6 +8,17 @@ This repository is a maintained fork of [hardikpandya/stop-slop](https://github.
 
 ## [Unreleased]
 
+### Added
+
+- A structures entry for participial consequence tails, the comma-plus-"-ing" clause that asserts an unearned payoff (", ensuring optimal performance," ", making it an ideal choice"): end the sentence and give the real consequence its own actor, or cut the tail.
+- An "Email Boilerplate" section in the phrases reference ("I hope this email finds you well," "I wanted to reach out," "Please don't hesitate to"), closing the gap between the skill's stated email scope and its rules.
+- Vocabulary coverage for "ensure/ensuring," "key" as a buzz-adjective, "serves as / stands as," "aims to," "vibrant," "nestled (in the heart of)," "a variety of / a wide range of," and the "Overall," connector opener; "ensure" and "key" join the borderline list that only counts as a cluster.
+- Two before/after pairs (participial consequence tails, email boilerplate), bringing the examples reference to twenty-eight.
+
+### Changed
+
+- The quick checks now sit under seven family headings (flow, wording, actors, structures, openers and closers, substance, typography) instead of one flat list, so a pass scans by category.
+
 ## [1.1.0] - 2026-06-25
 
 ### Added

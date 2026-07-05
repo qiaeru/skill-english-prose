@@ -128,6 +128,20 @@ The cleft delays the point behind a "what" clause.
 
 A genuine question or a Wh- sentence is fine in moderation; the tell is the cleft used as a reflex to launch sentences.
 
+## Participial Consequence Tails
+
+A comma plus an "-ing" clause hangs a consequence or a judgment on the end of the sentence, with no actor and no evidence: "..., ensuring optimal performance," "..., making it an ideal choice for growing teams." Models attach one to every other sentence; each tail asserts a payoff the sentence never showed.
+
+| Pattern | Problem |
+| --- | --- |
+| ", ensuring [outcome]" | A guarantee nobody made |
+| ", making it [judgment]" | Verdict smuggled in as grammar |
+| ", highlighting / underscoring / showcasing [significance]" | Significance announced, not shown |
+| ", allowing / enabling [someone] to [benefit]" | Benefit claimed without the mechanism |
+| ", resulting in [outcome]" (as a reflex) | Causation asserted, not argued |
+
+**Instead:** End the sentence, then carry the real consequence in a clause or sentence with an actor: "The cache stores each result, so repeated queries return in milliseconds." Cut the tail that adds nothing. One earned participial clause is ordinary English; the tell is the tail as a sentence-ending reflex.
+
 ## Formulaic Constructions
 
 | Pattern | Problem |

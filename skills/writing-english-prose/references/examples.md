@@ -30,6 +30,8 @@ Each "After" shows fluent, natural US English: full sentences that connect and b
 - 24\. Impersonal directives
 - 25\. Bolded lead-in labels
 - 26\. Both-sides menu
+- 27\. Participial consequence tails
+- 28\. Email boilerplate
 
 ## Example 1: Throat-Clearing + Binary Contrast
 
@@ -295,3 +297,23 @@ Each "After" shows fluent, natural US English: full sentences that connect and b
 > "Use a monorepo if your teams share code daily, because the simpler dependency management outweighs the slower CI. If they don't, the CI cost buys you nothing."
 
 **Changes:** Replaced the non-committal menu with a stance and the one condition that decides it.
+
+## Example 27: Participial Consequence Tails
+
+**Before:**
+> "The platform caches every query result, ensuring optimal performance and allowing your team to focus on what matters, making it an ideal solution for growing businesses."
+
+**After:**
+> "The platform caches every query result, so a report that took ten seconds to recompute now loads in under one."
+
+**Changes:** Three stacked consequence tails became one real consequence with a number; the two that asserted nothing ("focus on what matters," "ideal solution") disappeared.
+
+## Example 28: Email Boilerplate
+
+**Before:**
+> "I hope this email finds you well. I wanted to reach out to follow up on the proposal I sent last week. Please don't hesitate to reach out if you have any questions. Thank you for your patience!"
+
+**After:**
+> "Have you had a chance to look at the proposal I sent last Tuesday? If anything in the pricing section needs a walkthrough, I'm free Thursday afternoon."
+
+**Changes:** Cut the stock opener, the double "reach out," and the canned closers; the email now opens with the ask and ends with a concrete next step.

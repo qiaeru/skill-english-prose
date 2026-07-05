@@ -67,7 +67,7 @@ Endings that gesture at significance instead of landing on substance. End on a c
 
 ## AI Vocabulary
 
-Words a model reaches for and a person rarely does. Prefer the short, plain word; when the replacement column names a strategy ("name the X"), rewrite the sentence around the concrete thing. Weight by density: the loud entries ("delve," "tapestry," "leverage," "seamless") go on sight, but the borderline ones that double as ordinary English ("robust," "comprehensive," "navigate," "utilize") are a tell when they cluster, not on a lone instance in otherwise-human prose.
+Words a model reaches for and a person rarely does. Prefer the short, plain word; when the replacement column names a strategy ("name the X"), rewrite the sentence around the concrete thing. Weight by density: the loud entries ("delve," "tapestry," "leverage," "seamless") go on sight, but the borderline ones that double as ordinary English ("robust," "comprehensive," "navigate," "utilize," "ensure," "key") are a tell when they cluster, not on a lone instance in otherwise-human prose.
 
 | Avoid | Use instead |
 | --- | --- |
@@ -103,6 +103,12 @@ Words a model reaches for and a person rarely does. Prefer the short, plain word
 | Landscape (context) | Situation, field |
 | Navigate (challenges) | Handle, address |
 | Deep dive | Close look, analysis |
+| Ensure / ensuring | Check, guarantee; or name what actually prevents the failure |
+| Key (as in "key insights") | Main, central; or show why it matters |
+| Serves as / stands as | Is |
+| Aims to | Say what it does, not what it intends |
+| Vibrant | Name what is actually happening there |
+| Nestled (in the heart of) | In, near |
 
 ## Business Jargon
 
@@ -136,6 +142,7 @@ Multi-word detours around a short word. Replace on sight.
 | Subsequent to | After |
 | Is able to / has the ability to | Can |
 | A number of | Several, many |
+| A variety of / a wide range of | Several, many; or name them |
 | The majority of | Most |
 | At this point in time | Now |
 | On a daily basis | Daily |
@@ -210,6 +217,7 @@ Models open consecutive sentences with formal connectors. Most sentences need no
 - "Furthermore,"
 - "Additionally,"
 - "Notably,"
+- "Overall,"
 - "That said," (as a reflex)
 - "However," opening several sentences in one paragraph
 
@@ -227,6 +235,20 @@ At most one connector opener per paragraph. Usually, just start the sentence.
 - "The reality is"
 - "First and foremost"
 - "Last but not least"
+
+## Email Boilerplate
+
+Stock lines that pad the top and bottom of a generated email. Open with the reason you're writing; close with the concrete next step.
+
+- "I hope this email finds you well"
+- "I hope you're doing well" (as a reflex opener)
+- "I wanted to reach out"
+- "I wanted to follow up on"
+- "I am writing to inform you that"
+- "Please don't hesitate to reach out / to contact me"
+- "Thank you for your patience" / "Thank you for your understanding"
+- "Please let me know if you have any questions" (as a reflex closer)
+- "Looking forward to hearing from you" (as a reflex closer)
 
 ## Chat Artifacts
 
