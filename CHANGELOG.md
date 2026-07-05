@@ -8,6 +8,8 @@ This repository is a maintained fork of [hardikpandya/stop-slop](https://github.
 
 ## [Unreleased]
 
+## [1.2.0] - 2026-07-05
+
 ### Added
 
 - A structures entry for participial consequence tails, the comma-plus-"-ing" clause that asserts an unearned payoff (", ensuring optimal performance," ", making it an ideal choice"): end the sentence and give the real consequence its own actor, or cut the tail.
