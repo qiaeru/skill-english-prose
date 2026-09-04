@@ -13,6 +13,7 @@ This repository is a maintained fork of [hardikpandya/stop-slop](https://github.
 - A fidelity-to-the-source rule, ported from the sibling `skill-prose-francaise`: the rewrite adds no number, cause, actor, or example the source lacks, keeps the length close to the original, and flags a vague passage rather than fill it in, with a "Fidelity to the source" family heading the quick checks. Sixteen "After" examples that invented facts are rebuilt from their "Before" alone, with a note wherever the source stays vague.
 - A counterweight to rule 1: the same conjunction at every seam ("because" joining each sentence) is as mechanical as the fragments it replaced, with a quick check and a rhythm-table row.
 - Three families of tells, each with a reference section and a quick check: learned litotes ("not without merit," "it is not uncommon for"), redefinition verbs ("reimagine," "revolutionize"), and pleonasms ("advance planning," "end result").
+- The validator checks that the plugin description equals the skill's, and that the loud AI vocabulary the skill removes on sight stays out of the repo's own prose except as a quoted mention.
 
 ### Changed
 

@@ -25,6 +25,7 @@ collectMarkdown('skills');
 
 // 1. Frontmatter of each SKILL.md: name equal to its folder, description
 // present and under 300 characters. The runtime reads only these two fields.
+const descriptions = {};
 for (const skillName of readdirSync('skills')) {
   const dir = path.join('skills', skillName);
   if (!statSync(dir).isDirectory()) continue;
@@ -51,6 +52,7 @@ for (const skillName of readdirSync('skills')) {
   } else if ([...fields.description].length > 300) {
     report(file, 3, `description is ${[...fields.description].length} characters, maximum 300`);
   }
+  descriptions[skillName] = fields.description;
 }
 
 // 2. Relative links: every target exists, and a link written from inside a
@@ -85,6 +87,17 @@ for (const file of proseFiles) {
 const CHECKS = [
   [/—/, 'em dash in prose; use a comma, a period, or parentheses'],
 ];
+
+// Loud AI vocabulary the skill removes on sight (rule 3) must not appear in
+// the repo's own prose except as a mention. Double-quoted spans, table rows
+// (the "Avoid" columns of the references), code, links, and URLs are
+// stripped before the check, and blockquotes are skipped as quoted material.
+const MENTION_CHECKS = [
+  [
+    /\b(?:delve|delving|leverage[sd]?|leveraging|seamless(?:ly)?|tapestry|testament|game-changer|myriad|plethora)\b/i,
+    'loud AI vocabulary in prose; use the plain word, or quote it as a mention',
+  ],
+];
 for (const file of proseFiles) {
   const lines = read(file).split(/\r?\n/);
   let inFence = false;
@@ -113,6 +126,15 @@ for (const file of proseFiles) {
     for (const [pattern, message] of CHECKS) {
       if (pattern.test(cleaned)) report(file, i + 1, message);
     }
+    if (/^\s*(\||>)/.test(raw)) continue;
+    const cleanedMention = raw
+      .replace(/`[^`]*`/g, '')
+      .replace(/\[[^\]]*\]\([^)]*\)/g, '')
+      .replace(/https?:\/\/\S+/g, '')
+      .replace(/"[^"]*"/g, '');
+    for (const [pattern, message] of MENTION_CHECKS) {
+      if (pattern.test(cleanedMention)) report(file, i + 1, message);
+    }
   }
 }
 
@@ -134,7 +156,19 @@ if (!existsSync(path.join('skills', manifest.name))) {
   report('.claude-plugin/plugin.json', null, `plugin name "${manifest.name}" matches no folder under skills/`);
 }
 
-// 5. LICENSE keeps both copyright lines, the upstream author for the
+// 5. The plugin description repeats the description of the skill of the
+// same name, since the marketplace reads the first and the runtime the
+// second; a trigger added to one must reach the other.
+const skillDescription = descriptions[manifest.name];
+if (skillDescription && manifest.description !== skillDescription) {
+  report(
+    '.claude-plugin/plugin.json',
+    null,
+    `description differs from the one in skills/${manifest.name}/SKILL.md`,
+  );
+}
+
+// 6. LICENSE keeps both copyright lines, the upstream author for the
 // original and the fork author for the modifications; a badly resolved
 // upstream merge can drop one without anyone noticing.
 const license = read('LICENSE');
@@ -147,4 +181,4 @@ if (errors.length > 0) {
   for (const e of errors) console.error(`  ${e}`);
   process.exit(1);
 }
-console.log(`Invariants checked on ${proseFiles.length} files: frontmatter, links, typography, version, license.`);
+console.log(`Invariants checked on ${proseFiles.length} files: frontmatter, links, typography, mentions, version, description, license.`);
