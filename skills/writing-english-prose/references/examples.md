@@ -1,37 +1,6 @@
 # Before/After Examples
 
-Each "After" shows fluent, natural US English: full sentences that connect and breathe, concrete subjects and verbs, no AI tells, and no overcorrection into slogans.
-
-## Contents
-
-- 1\. Throat-clearing + binary contrast
-- 2\. Filler + permission ending
-- 3\. Business jargon stack
-- 4\. Dramatic fragmentation
-- 5\. Rhetorical setup
-- 6\. AI vocabulary
-- 7\. Rhetorical question transition
-- 8\. See-saw + bold emphasis
-- 9\. Marketing cascade fragments
-- 10\. Negative listing
-- 11\. False agency
-- 12\. Passive voice hiding the actor
-- 13\. Stacked hedges
-- 14\. Connector stacking
-- 15\. Marketing opener
-- 16\. Vague declarative
-- 17\. Triad cadence
-- 18\. Over-compression
-- 19\. Cliché closer
-- 20\. Pull-quote bait
-- 21\. Wordy constructions
-- 22\. Nominalization stack
-- 23\. Bulleted argument
-- 24\. Impersonal directives
-- 25\. Bolded lead-in labels
-- 26\. Both-sides menu
-- 27\. Participial consequence tails
-- 28\. Email boilerplate
+Each "After" shows fluent, natural US English: full sentences that connect and breathe, concrete subjects and verbs, no AI tells, and no overcorrection into slogans. Each "After" contains only what the "Before" supplies, so the rewrite stays sober when the source stays vague instead of inventing a number, a cause, or an actor to sound concrete; a note follows the pair wherever that restraint shows. The connectives vary from one example to the next, since "because" at every seam would be one more tell.
 
 ## Example 1: Throat-Clearing + Binary Contrast
 
@@ -39,9 +8,9 @@ Each "After" shows fluent, natural US English: full sentences that connect and b
 > "Here's the thing: building products is hard. Not because the technology is complex. Because people are complex. Let that sink in."
 
 **After:**
-> "Building products is hard, and the technology is rarely the reason. The hard part is getting a dozen people to agree on what to build."
+> "Building products is hard, and the difficulty lies in the people rather than the technology."
 
-**Changes:** Removed the opener, the telegraphed contrast, and the emphasis crutch; replaced the abstract "people are complex" with the concrete difficulty.
+**Changes:** Removed the opener, the telegraphed contrast, and the emphasis crutch. The source names no specific difficulty, so the rewrite keeps its claim at that level and leaves the author to name it.
 
 ## Example 2: Filler + Permission Ending
 
@@ -49,9 +18,9 @@ Each "After" shows fluent, natural US English: full sentences that connect and b
 > "It turns out that most teams struggle with alignment. The uncomfortable truth is that nobody wants to admit they're confused. And that's okay."
 
 **After:**
-> "Most teams struggle with alignment because nobody in the meeting wants to admit they're confused."
+> "Most teams struggle with alignment, and nobody wants to admit they're confused."
 
-**Changes:** Cut both throat-clearing phrases and the permission-granting ending; joined the two claims with the causal link they implied.
+**Changes:** Cut both throat-clearing phrases and the permission-granting ending. The two claims sit side by side as the source left them, without a causal link it never stated.
 
 ## Example 3: Business Jargon Stack
 
@@ -59,9 +28,9 @@ Each "After" shows fluent, natural US English: full sentences that connect and b
 > "In today's fast-paced landscape, we need to lean into discomfort and navigate uncertainty with clarity. This matters because your competition isn't waiting."
 
 **After:**
-> "You'll need to make decisions before you feel ready, because your competitors already are."
+> "We'll have to act while we're still uncomfortable and unsure, since our competitors aren't waiting."
 
-**Changes:** Replaced the jargon with the concrete behavior it gestured at, and kept a full flowing sentence instead of compressing to a slogan.
+**Changes:** Replaced the jargon with the plain behavior it gestured at, and kept the one reason the source gives, in a full sentence instead of a slogan.
 
 ## Example 4: Dramatic Fragmentation
 
@@ -79,9 +48,9 @@ Each "After" shows fluent, natural US English: full sentences that connect and b
 > "What if I told you that the best teams don't optimize for productivity? Here's what I mean: they optimize for learning. Think about it."
 
 **After:**
-> "The best teams optimize for learning rather than productivity, because a team that learns faster ships better products a quarter later."
+> "The best teams optimize for learning rather than productivity."
 
-**Changes:** Direct claim with its supporting reason; no Socratic posturing, no preview, no prompt.
+**Changes:** Direct claim; no Socratic posturing, no preview, no prompt. The source offers no reason for the claim, so the rewrite adds none.
 
 ## Example 6: AI Vocabulary
 
@@ -89,9 +58,9 @@ Each "After" shows fluent, natural US English: full sentences that connect and b
 > "This robust solution leverages cutting-edge AI to seamlessly streamline your workflow and unlock your team's full potential."
 
 **After:**
-> "The tool drafts the first version of each report, which saves your team about three hours a week."
+> "The tool uses AI to simplify your workflow."
 
-**Changes:** Replaced six AI-signature words with the concrete thing the product does and a number.
+**Changes:** Replaced six AI-signature words with the plain claim underneath them; "unlock your team's full potential" asserted nothing and went. The source never says what the tool does or what the team gains, so the rewrite leaves the concrete task and the gain to the author rather than invent them.
 
 ## Example 7: Rhetorical Question Transition
 
@@ -101,7 +70,7 @@ Each "After" shows fluent, natural US English: full sentences that connect and b
 **After:**
 > "We rewrote the build pipeline in Rust, and builds that used to take twenty minutes now finish in four, although nobody on the team knew Rust when we started."
 
-**Changes:** Removed both question-answer transitions; ordinary syntax carries the same surprise.
+**Changes:** Removed both question-answer transitions; ordinary syntax carries the same surprise, and every number is the source's own.
 
 ## Example 8: See-Saw + Bold Emphasis
 
@@ -109,9 +78,9 @@ Each "After" shows fluent, natural US English: full sentences that connect and b
 > "Less meetings, more shipping. The key insight is that **focus** beats **alignment** every single time."
 
 **After:**
-> "Cutting our weekly meetings from five to two gave everyone back a full afternoon, and the roadmap didn't suffer for it."
+> "Fewer meetings leave more time to ship, and focus matters more than alignment."
 
-**Changes:** Replaced the bumper-sticker balance and the bold emphasis with the concrete change and its observed cost.
+**Changes:** Replaced the bumper-sticker balance, the bold emphasis, and the lazy extreme ("every single time") with two plain clauses. The source gives no meeting count and no observed outcome, so the rewrite claims none.
 
 ## Example 9: Marketing Cascade Fragments
 
@@ -119,9 +88,9 @@ Each "After" shows fluent, natural US English: full sentences that connect and b
 > "No fluff. No filler. No endless configuration. Just a tool that works."
 
 **After:**
-> "The tool works out of the box, without a configuration step or a manual to read first."
+> "The tool works, with no padding and no endless configuration."
 
-**Changes:** Rebuilt the ad-copy cascade into one full sentence that names what "just works" means.
+**Changes:** Rebuilt the ad-copy cascade into one full sentence that keeps the two complaints the source makes.
 
 ## Example 10: Negative Listing
 
@@ -129,9 +98,9 @@ Each "After" shows fluent, natural US English: full sentences that connect and b
 > "This isn't a feature. It isn't a product. It's a whole new way of working."
 
 **After:**
-> "The release changes how the team works day to day: designers and engineers now edit the same file instead of mailing mockups back and forth."
+> "The release goes beyond a single feature or product and changes how the team works."
 
-**Changes:** Dropped the striptease; named the actual change instead of announcing its magnitude.
+**Changes:** Dropped the striptease. The source never says what changes, so the rewrite keeps the claim at the level the source supports and leaves the author to name it.
 
 ## Example 11: False Agency
 
@@ -139,9 +108,9 @@ Each "After" shows fluent, natural US English: full sentences that connect and b
 > "Customer complaints become fixes within days, and the culture shifts toward quality on its own."
 
 **After:**
-> "When a customer complains, an engineer ships the fix within days, and after a few months of this the team starts catching the problems before customers do."
+> "When a customer complains, the team ships a fix within days, and after enough of those the team starts caring about quality without being asked."
 
-**Changes:** Named the people behind both events; the mechanism replaced the mysticism.
+**Changes:** Named the people behind both events, keeping the source's own timing ("within days"). The source gives no mechanism for the culture shift, so the rewrite names who changes and leaves the how to the author.
 
 ## Example 12: Passive Voice Hiding the Actor
 
@@ -149,9 +118,9 @@ Each "After" shows fluent, natural US English: full sentences that connect and b
 > "It was decided that the deadline would be moved, and users will be notified once a new date has been established."
 
 **After:**
-> "The product team moved the deadline and will email users as soon as they set the new date."
+> "We moved the deadline and will notify users as soon as we set the new date."
 
-**Changes:** Named the actor once and let it govern both verbs.
+**Changes:** Named the actor once and let it govern both verbs. The actor is the one the context designates, the sender of the message, and the notification channel stays unspecified since the source doesn't name it.
 
 ## Example 13: Stacked Hedges
 
@@ -159,9 +128,9 @@ Each "After" shows fluent, natural US English: full sentences that connect and b
 > "This approach could arguably, in many ways, be seen as somewhat more effective, at least to some extent, than the previous one."
 
 **After:**
-> "This approach beat the previous one in our first test, though we've only run it on one project so far."
+> "This approach is probably somewhat more effective than the previous one."
 
-**Changes:** Replaced five reflexive hedges with one honest, specific caveat.
+**Changes:** Five reflexive hedges became one. The source expresses doubt, so the rewrite keeps a single hedge instead of piling them up or dropping them all, and adds no test result to back the claim.
 
 ## Example 14: Connector Stacking
 
@@ -169,9 +138,9 @@ Each "After" shows fluent, natural US English: full sentences that connect and b
 > "Moreover, the new API is faster. Furthermore, it requires fewer credentials. Additionally, it is worth noting that the documentation has been improved."
 
 **After:**
-> "The new API is faster, asks for fewer credentials, and ships with documentation that finally covers the error codes."
+> "The new API is faster, asks for fewer credentials, and comes with better documentation."
 
-**Changes:** Deleted all three connector openers and the filler; one sentence carries the list.
+**Changes:** Deleted all three connector openers and the filler; one sentence carries the list. "Improved" stays as vague as the source left it.
 
 ## Example 15: Marketing Opener
 
@@ -179,9 +148,9 @@ Each "After" shows fluent, natural US English: full sentences that connect and b
 > "In a world where attention is the scarcest resource, whether you're a solo founder or a Fortune 500 executive, this newsletter is for you."
 
 **After:**
-> "This newsletter is for people who run products and have ten minutes a week to read about them."
+> "This newsletter is for anyone who runs a product, whatever the size of the company."
 
-**Changes:** Cut the cosmic opener and the fake audience range; named the actual reader.
+**Changes:** Cut the cosmic opener and the "whether you're" balancing act. The audience stays the one the source describes rather than a narrower reader invented for concreteness.
 
 ## Example 16: Vague Declarative
 
@@ -189,9 +158,9 @@ Each "After" shows fluent, natural US English: full sentences that connect and b
 > "The implications of this change are significant, and the stakes for the industry are high."
 
 **After:**
-> "If this change holds, every payment processor will have to re-certify its integration before March, at a cost most of the small ones can't absorb."
+> "This change will affect the whole industry."
 
-**Changes:** Replaced both announcements of importance with the specific implication, the deadline, and who gets hurt.
+**Changes:** Removed both announcements of importance. The source never says what the implications are, so the rewrite stops at the claim it supports and flags the gap to the author, who must name the implication (who has to change what, by when) instead of letting the editor invent a deadline and a victim.
 
 ## Example 17: Triad Cadence
 
@@ -199,9 +168,9 @@ Each "After" shows fluent, natural US English: full sentences that connect and b
 > "Our documentation is clear, concise, and compelling. The onboarding is fast, friendly, and frictionless. The product is simple, scalable, and secure."
 
 **After:**
-> "The documentation answers the question you actually searched for, and onboarding takes about ten minutes because the defaults are sane."
+> "The documentation is short and clear, onboarding takes little time, and the product stays simple as it scales."
 
-**Changes:** Broke three consecutive alliterative triads; kept the two claims that could be made concrete and dropped the one that couldn't.
+**Changes:** Broke three consecutive alliterative triads into one sentence with uneven items, dropping the adjectives that said nothing ("compelling," "friendly"). The source gives no onboarding time, so the rewrite states none.
 
 ## Example 18: Over-Compression
 
@@ -219,9 +188,9 @@ Each "After" shows fluent, natural US English: full sentences that connect and b
 > "In conclusion, remote work is here to stay. Only time will tell how organizations will adapt, but one thing is certain: the future of work has arrived."
 
 **After:**
-> "Remote work survived the return-to-office push; the companies still fighting it are now losing candidates to the ones that didn't."
+> "Remote work will last, and organizations are still working out how to adapt to it."
 
-**Changes:** Replaced three closing clichés with a concrete observation that actually ends the argument.
+**Changes:** Replaced three closing clichés with the one claim underneath them. The source says nothing about hiring or office policy, so the rewrite ends on what it does say.
 
 ## Example 20: Pull-Quote Bait
 
@@ -229,9 +198,9 @@ Each "After" shows fluent, natural US English: full sentences that connect and b
 > "Culture isn't what you say. It's what you tolerate. And what you tolerate becomes who you are."
 
 **After:**
-> "A team's culture shows in what its managers let slide: tolerate missed handoffs for a quarter and missed handoffs become the norm."
+> "A team's culture shows in what it tolerates rather than in what it says about itself, and over time the tolerated behavior becomes the norm."
 
-**Changes:** The aphorism chain became one working sentence with a concrete example; the insight survived, the poster format didn't.
+**Changes:** The aphorism chain became one working sentence; the insight survived without the poster format and without an example the source doesn't give.
 
 ## Example 21: Wordy Constructions
 
@@ -264,9 +233,9 @@ Each "After" shows fluent, natural US English: full sentences that connect and b
 > - Waiting increases risk
 
 **After:**
-> "We should migrate this quarter: the old API loses support in June, and the team has capacity now that it won't have once the summer releases start."
+> "We should migrate this quarter: the old API is deprecated and loses support in June, the team has capacity now, and waiting only adds risk."
 
-**Changes:** The list hid the reasoning; the paragraph restores the links (deprecation explains the deadline, capacity is relative to what comes next) and drops the bullet that said nothing.
+**Changes:** The list hid the reasoning; the paragraph restores the link the source implies (deprecation explains the June deadline) and keeps the other points at the level the source gives them, without inventing what the team's capacity competes with.
 
 ## Example 24: Impersonal Directives
 
@@ -274,9 +243,9 @@ Each "After" shows fluent, natural US English: full sentences that connect and b
 > "It is important to note that there are several settings that must be configured before the first run. It is recommended that a backup be performed."
 
 **After:**
-> "Configure the database path, the port, and the admin password before the first run, and back up your existing data first."
+> "Configure the required settings before the first run, and back up your data first."
 
-**Changes:** Two impersonal openers and an expletive "there are" became direct instructions; "several settings" became the actual settings.
+**Changes:** Two impersonal openers and an expletive "there are" became direct instructions. The source doesn't list the settings, so the rewrite leaves the list to the author rather than guess at it.
 
 ## Example 25: Bolded Lead-In Labels
 
@@ -284,9 +253,9 @@ Each "After" shows fluent, natural US English: full sentences that connect and b
 > "Our process has three stages. **Discovery:** we interview your users. **Design:** we prototype the top flows. **Delivery:** we ship and measure."
 
 **After:**
-> "Our process runs in three stages. We interview your users, prototype the flows they struggle with most, then ship those flows and measure whether the struggle goes away."
+> "Our process runs in three stages: we interview your users, prototype the flows that matter most, then ship them and measure the result."
 
-**Changes:** Dropped the bold-label scaffolding that formats a chat answer as prose; the connected sentences carry the same three stages and show how each one feeds the next.
+**Changes:** Dropped the bold-label scaffolding that formats a chat answer as prose; the connected sentence carries the same three stages in the same order.
 
 ## Example 26: Both-Sides Menu
 
@@ -294,9 +263,9 @@ Each "After" shows fluent, natural US English: full sentences that connect and b
 > "Should you use a monorepo? On one hand, it simplifies dependency management. On the other hand, it complicates CI. Ultimately, it depends on your needs."
 
 **After:**
-> "Use a monorepo if your teams share code daily, because the simpler dependency management outweighs the slower CI. If they don't, the CI cost buys you nothing."
+> "Use a monorepo when simpler dependency management is worth the slower CI, and skip it when it isn't."
 
-**Changes:** Replaced the non-committal menu with a stance and the one condition that decides it.
+**Changes:** Replaced the non-committal menu with a stance built on the one trade-off the source names. The source doesn't say where that trade-off tips, so the rewrite states the condition in the source's own terms and leaves the threshold to the author.
 
 ## Example 27: Participial Consequence Tails
 
@@ -304,9 +273,9 @@ Each "After" shows fluent, natural US English: full sentences that connect and b
 > "The platform caches every query result, ensuring optimal performance and allowing your team to focus on what matters, making it an ideal solution for growing businesses."
 
 **After:**
-> "The platform caches every query result, so a report that took ten seconds to recompute now loads in under one."
+> "The platform caches every query result, so repeated queries return faster."
 
-**Changes:** Three stacked consequence tails became one real consequence with a number; the two that asserted nothing ("focus on what matters," "ideal solution") disappeared.
+**Changes:** Three stacked consequence tails became the one consequence caching actually implies; the two that asserted nothing ("focus on what matters," "ideal solution") disappeared. The source gives no timing, so the rewrite states none.
 
 ## Example 28: Email Boilerplate
 
@@ -314,6 +283,6 @@ Each "After" shows fluent, natural US English: full sentences that connect and b
 > "I hope this email finds you well. I wanted to reach out to follow up on the proposal I sent last week. Please don't hesitate to reach out if you have any questions. Thank you for your patience!"
 
 **After:**
-> "Have you had a chance to look at the proposal I sent last Tuesday? If anything in the pricing section needs a walkthrough, I'm free Thursday afternoon."
+> "Have you had a chance to look at the proposal I sent last week? If any part of it needs explaining, tell me which one."
 
-**Changes:** Cut the stock opener, the double "reach out," and the canned closers; the email now opens with the ask and ends with a concrete next step.
+**Changes:** Cut the stock opener, the double "reach out," and the canned closers; the email now opens with the ask and ends with a concrete next step, and "last week" stays as the source wrote it.

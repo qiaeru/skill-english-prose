@@ -1,6 +1,6 @@
 ---
 name: writing-english-prose
-description: Remove AI writing patterns from English prose. Use when drafting, writing, editing, reviewing, or proofreading US-English text (essays, posts, docs, emails). Replaces AI tells with fluent, natural American English built on concrete subjects, real verbs, plain wording, and varied rhythm.
+description: Remove AI writing patterns from English prose. Use when drafting, writing, editing, reviewing, or proofreading US-English text (essays, posts, docs, emails, UI strings, locale files). Replaces AI tells with fluent, natural American English: concrete subjects, real verbs, plain words, varied rhythm.
 ---
 
 # Writing English Prose
@@ -16,10 +16,12 @@ Apply to essays, blog posts, documentation, READMEs, emails, announcements, and 
 For a full edit or rewrite:
 
 1. Read the whole text before correcting anything; rhythm, repetition, and cadence tells only show across paragraphs.
-2. Apply the core rules, opening the references as needed.
-3. Run the quick checks on the result.
-4. Score on the five axes; rewrite below 35/50.
-5. Reread your own output with the same checks. The corrected text must pass the rules it enforces.
+2. Fix the form, not the facts. Add no number, cause, actor, or example the source doesn't contain; when the source stays vague, keep the rewrite sober or flag the gap to the author rather than fill it.
+3. Keep the length close to the original. Joining fragments and cutting filler move words around; they don't add them.
+4. Apply the core rules, opening the references as needed.
+5. Run the quick checks on the result and count the ones that still fail.
+6. Score on the five axes. Rewrite once if any check still fails or the total falls below 35/50, then deliver the better version with its score and the number of checks still failing.
+7. Reread your own output with the same checks. The corrected text must pass the rules it enforces.
 
 For a short text (an email, a message, one paragraph), apply the rules without the scoring grid.
 
@@ -35,19 +37,19 @@ An interface file (application labels, locale files) mixes two registers; split 
 
 ## Core rules
 
-1. **Write sentences that flow.** Most sentences carry one idea in roughly 12 to 25 words and connect to their neighbors. A short sentence is a tool for emphasis; it works once per stretch, not as the default. Stacked fragments ("No fluff. No filler. Just results.") are as much a tell as bloat. See [references/structures.md](references/structures.md).
+1. **Write sentences that flow.** Most sentences carry one idea in roughly 12 to 25 words and connect to their neighbors. A short sentence is a tool for emphasis; it works once per stretch, not as the default. Stacked fragments ("No fluff. No filler. Just results.") are as much a tell as bloat. The counterweight: joining every sentence with the same conjunction ("because" at every seam, "which" on every clause) is as mechanical as the fragments it replaced, so vary the connective and let some sentences stand alone. See [references/structures.md](references/structures.md).
 
 2. **Cut filler phrases.** Throat-clearing openers, emphasis crutches, marketing openers and closers, email boilerplate, chat artifacts. See [references/phrases.md](references/phrases.md).
 
-3. **Use plain words.** Prefer the short Anglo-Saxon word to the Latinate one: "use" over "utilize," "start" over "embark on," "dig into" over "delve into." The AI vocabulary list ("leverage," "seamless," "robust," "tapestry," "testament") is in [references/phrases.md](references/phrases.md).
+3. **Use plain words.** Prefer the short Anglo-Saxon word to the Latinate one: "use" over "utilize," "start" over "embark on," "dig into" over "delve into." The AI vocabulary list ("leverage," "seamless," "robust," "tapestry," "testament"), the redefinition verbs that announce a change without naming it ("reimagine," "revolutionize"), and the pleonasms ("advance planning," "end result") are in [references/phrases.md](references/phrases.md).
 
-4. **Break formulaic structures.** Binary contrasts, negative listings, see-saw constructions, rhetorical setups, participial consequence tails, triad cadence. See [references/structures.md](references/structures.md).
+4. **Break formulaic structures.** Binary contrasts, negative listings, see-saw constructions, rhetorical setups, participial consequence tails, triad cadence, and the learned litotes ("not without merit," "it is not uncommon for") that affirm by double negation. See [references/structures.md](references/structures.md).
 
 5. **Prefer active voice.** Find the actor and put them at the front. Passive stays legitimate when the actor is unknown or beside the point ("he was arrested in May"); the tell is passive used to dodge naming who did what.
 
-6. **No false agency.** Complaints don't become fixes, decisions don't emerge, data doesn't tell. Name the person who acted; when no specific person fits, use "you."
+6. **No false agency.** Complaints don't become fixes, decisions don't emerge, data doesn't tell. Name the person the text points to (the sender, the team named earlier). When the text addresses a reader and no one else fits, use "you"; when it names no one, keep the impersonal or passive form rather than invent an actor.
 
-7. **Be specific.** No vague declaratives ("the implications are significant"). Name the implication, with a number or a concrete object when one exists, even if the sentence gets longer.
+7. **Be specific.** No vague declaratives ("the implications are significant"). Name the implication, with the number or concrete object the source provides, even if the sentence gets longer. Never invent one to sound concrete: strip the vagueness and let the author supply the fact.
 
 8. **Put the reader in the room.** "You" beats "people," a scene beats a generalization, the lecturer-from-a-distance voice ("This happens because...") goes.
 
@@ -77,11 +79,17 @@ Most tells are about concentration, not the single instance. A lone "comprehensi
 
 ## Quick checks
 
-Run each group before delivering.
+Run each group before delivering. The list is part of the skill on the same footing as the core rules, since it also covers tells without a numbered rule.
+
+### Fidelity to the source
+
+- Number, cause, actor, or example that the source doesn't contain? Remove it, or flag the gap to the author.
+- Text noticeably longer than the original, or a claim shifted by the rewrite? Tighten and restore.
 
 ### Flow and rhythm
 
 - Three consecutive short fragments, or every sentence under ten words? Rebuild into flowing sentences.
+- Same conjunction at every seam ("because" joining each sentence, "which" on every clause), or no sentence left standing alone across a paragraph? Vary the connective and the length.
 - Sentence contorted to dodge an em dash, or a bolted-on "lol," lowercase "i," or fake typo? That's the over-corrected tell; write the plain sentence.
 - Three consecutive sentences of matching length? Break one.
 - Triad cadence everywhere ("clear, concise, and compelling")? Vary item counts; two or one often beats three.
@@ -94,7 +102,10 @@ Run each group before delivering.
 - "In order to," "due to the fact that," "prior to," "is able to"? Use "to," "because," "before," "can."
 - Hedges stacked ("arguably," "in many ways," "to some extent" in one paragraph)? Keep at most one.
 - Both-sides menu ("on one hand... on the other," "it depends") dodging a stance? Take a position, then name the trade-off.
-- AI vocabulary ("delve," "leverage," "seamless," "robust," "navigate," "landscape," "unlock," "harness," "empower," "elevate," "testament," "tapestry")? Replace with the plain word.
+- Loud AI vocabulary ("delve," "leverage," "seamless," "landscape," "unlock," "harness," "empower," "elevate," "testament," "tapestry")? Replace with the plain word on sight.
+- Borderline word clustering ("robust," "comprehensive," "navigate," "utilize," "ensure," "key" several times in one passage)? Thin the cluster; leave a lone instance alone.
+- Redefinition verb ("reimagine," "reinvent," "redefine," "revolutionize," "transform" with nothing named)? Name what changes, or leave it to the author.
+- Pleonasm ("advance planning," "end result," "collaborate together," "each and every")? Cut the redundant half.
 - "Moreover," "Furthermore," "Additionally" opening sentences? At most one connector opener per paragraph; usually just start the sentence.
 
 ### Actors and voice
@@ -102,7 +113,7 @@ Run each group before delivering.
 - "There is/There are" opening a sentence? Rewrite around a real subject.
 - "It is essential/important to..." with no actor? Name who must act.
 - Passive hiding a known actor? Name them up front.
-- Inanimate thing doing a human verb ("the decision emerged")? Name the person.
+- Inanimate thing doing a human verb ("the decision emerged")? Name the person the text points to; if it points to no one, keep the impersonal form.
 
 ### Formulaic structures
 
@@ -111,6 +122,7 @@ Run each group before delivering.
 - Negative listing ("It's not A. It's not B. It's C.")? State C.
 - Rhetorical question answered immediately ("The catch? ...")? State it.
 - Pseudo-cleft opener ("What makes this hard is...")? Name the thing: "The constraint is..."
+- Learned litotes ("not without merit," "it is not uncommon for," "cannot be ignored")? Affirm: "useful," "often," "matters."
 - Participial consequence tail (", ensuring...," ", making it...," ", allowing you to...")? End the sentence; give the consequence its own sentence and actor, or cut it.
 
 ### Openers, closers, and boilerplate
@@ -123,7 +135,7 @@ Run each group before delivering.
 
 ### Substance
 
-- Vague declarative ("The implications are significant")? Name the specific implication.
+- Vague declarative ("The implications are significant")? Name the specific implication from the source, or cut the sentence; don't make one up.
 - Paragraph that restates the prompt or could be cut with nothing lost? Make a real claim or delete it.
 - Pull-quote sentence? Rewrite as a working sentence.
 
@@ -140,17 +152,17 @@ Run each group before delivering.
 
 ## Scoring
 
-Rate 1-10 on each axis.
+Count the quick checks that still fail on the delivered text first, because the score alone goes easy on its own rewrite. Then rate 1-10 on each axis.
 
 | Axis | Question |
 | --- | --- |
 | Flow | Do sentences connect and breathe, or stack as fragments or bloat? |
 | Directness | Statements, or announcements and setups? |
-| Concreteness | Named actors, numbers, specific objects? |
+| Concreteness | Named actors, numbers, specific objects, all taken from the source? |
 | Authenticity | Sounds like a person who writes well, not a model or a brand? |
 | Economy | Anything cuttable without breaking the rhythm? |
 
-Below 35/50: revise.
+Rewrite once if any check still fails or the total falls below 35/50, then deliver the better version with its score and the number of checks still failing. Don't loop.
 
 ## Examples
 

@@ -31,9 +31,8 @@ These add no meaning. Delete them.
 
 - "Full stop." / "Period."
 - "Let that sink in."
-- "This matters because"
+- "This matters because" / "Here's why that matters"
 - "Make no mistake"
-- "Here's why that matters"
 - "Read that again."
 - "And honestly? That's the point."
 
@@ -46,8 +45,7 @@ Openers that address an imaginary market segment instead of a reader. Cut them, 
 - "In an era of"
 - "Whether you're a [X] or a [Y]"
 - "From [startups] to [Fortune 500s]"
-- "Picture this:"
-- "Imagine a world where"
+- "Picture this:" / "Imagine this:" / "Imagine a world where"
 - "We've all been there."
 
 ## Cliché Closers
@@ -198,12 +196,10 @@ Cut intensifiers that add no meaning:
 - "inherently"
 - "inevitably"
 - "incredibly"
-- "interestingly"
-- "importantly"
-- "crucially"
-- "notably"
 
 Keep adverbs that change the meaning of the verb: "slowly," "twice," "rarely," "yesterday," "almost." The test: if cutting the adverb changes nothing, cut it.
+
+The sentence adverbs that grade a whole statement ("interestingly," "importantly," "crucially," "notably") are the same reflex at the head of the sentence: they announce that the fact matters instead of showing it. Cut them and let the fact land.
 
 Hedges follow the same logic. One deliberate hedge ("probably," "in most cases") is honest writing. The tell is the reflexive stack: "arguably," "in many ways," "to some extent," "it could be argued," "more often than not" piling up in one paragraph. Keep at most one, and only where the uncertainty is real.
 
@@ -226,15 +222,46 @@ At most one connector opener per paragraph. Usually, just start the sentence.
 ## Filler Phrases
 
 - "At its core"
-- "In today's [X]"
 - "It's worth noting"
 - "It's important to note"
 - "Needless to say"
-- "At the end of the day"
 - "When it comes to"
 - "The reality is"
 - "First and foremost"
 - "Last but not least"
+
+## Redefinition Verbs
+
+Verbs that announce a transformation without naming it. A model reaches for them because they sound like a claim while committing to nothing.
+
+- "reimagine"
+- "reinvent"
+- "redefine"
+- "revolutionize"
+- "transform" (with nothing named)
+- "disrupt"
+- "unlock the potential of" / "harness the power of"
+
+If one of these stays, ask what changes, exactly, and name that instead. When the source doesn't say, strip the verb down to the plain claim it supports ("changes how users search their data") and leave the specifics to the author.
+
+## Pleonasms
+
+Two words where one already says it. Cut the redundant half.
+
+| Avoid | Use instead |
+| --- | --- |
+| Advance planning / plan ahead in advance | Planning, plan ahead |
+| End result / final outcome | Result, outcome |
+| Past history / past experience | History, experience |
+| Future plans | Plans |
+| Collaborate together / join together | Collaborate, join |
+| Each and every | Each, every |
+| Completely eliminate | Eliminate |
+| Absolutely essential | Essential |
+| Close proximity | Near |
+| Free gift / added bonus | Gift, bonus |
+| Repeat again | Repeat |
+| Unexpected surprise | Surprise |
 
 ## Email Boilerplate
 
@@ -293,8 +320,7 @@ False intimacy or manufactured sincerity:
 - "Trust me on this"
 - "And that's the part nobody tells you"
 - "Honestly," (opening a sentence to perform candor)
-- "Look, I get it" / "I get it"
-- "Imagine this:"
+- "Look, I get it"
 
 ## Telling Instead of Showing
 

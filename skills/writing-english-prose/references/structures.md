@@ -73,6 +73,8 @@ The inverse failure. Stripping every sentence to a slogan produces a different k
 
 **Instead:** Let most sentences run 12 to 25 words and carry one idea each, connected by ordinary syntax ("because," "which," "so," "although"). Save the short sentence for the one moment that earns it.
 
+The counterweight matters as much as the rule. A text corrected for fragments slides easily into the opposite habit: every sentence welded to the next by the same conjunction, "because" at every seam or "which" on every clause, and no sentence left standing on its own. That monotony is as mechanical as the staccato it replaced. Alternate the connective, let a short sentence follow a long one, and never join two ideas by a cause the source doesn't give; the syntax should gather what the text says, not invent a link.
+
 ## The Over-Corrected Register
 
 Over-compression is one move in a larger tell: the "trying not to sound like AI" voice. Replacing the smooth default with a forced-casual default is still a default, and readers clock it as fast as the gloss it replaced.
@@ -113,6 +115,21 @@ These announce insight rather than deliver it.
 | "Sound familiar?" | Manufactured complicity |
 
 **Instead:** Make the point. Let readers draw conclusions.
+
+## Learned Litotes
+
+Affirming by double negation. The construction sounds measured and weakens what it asserts; models use it as a hedge with a scholarly accent.
+
+| Pattern | Fix |
+| --- | --- |
+| "not without merit" / "not without its challenges" | "useful" / "has challenges," then name them |
+| "it is not uncommon for X to" | "X often" |
+| "cannot be ignored" / "cannot be overlooked" | "matters," and say why |
+| "it is not unreasonable to" | "you can," or state the position |
+| "not unlike" | "like" |
+| "no small feat" / "no small part" | "hard" / "much of" |
+
+**Instead:** Affirm. One litotes for an ironic understatement is a writer's choice; the tell is the reflex that never states a thing outright.
 
 ## Pseudo-Clefts and Wh- Crutches
 
@@ -167,7 +184,7 @@ Giving inanimate things human verbs. Complaints don't "become" fixes. Bets don't
 | "the data tells us" | Data sits there. Someone reads it and draws a conclusion. |
 | "the market rewards" | Markets don't reward. Buyers pay for things. |
 
-**Instead:** Name the human. "The team fixed it that week" beats "the complaint becomes a fix." If no specific person fits, use "you" to put the reader in the seat.
+**Instead:** Name the human the text points to. "The team fixed it that week" beats "the complaint becomes a fix." When the text addresses a reader and no one else fits, "you" puts the reader in the seat; when it names no one, keep the impersonal form rather than invent an actor.
 
 ## Narrator-from-a-Distance
 
@@ -193,7 +210,7 @@ Prefer a subject doing something. The tell is passive used to dodge naming a kno
 | "Mistakes were made" | Name who made them |
 | "The decision was reached" | Name who decided |
 
-**Instead:** Find the actor. Put them at the front of the sentence.
+**Instead:** Find the actor and put them at the front of the sentence. The actor must be the one the context designates (the sender of the message, the team named earlier); when the text designates no one, keep the passive rather than invent a subject.
 
 ## Typographic Emphasis
 
@@ -239,16 +256,14 @@ Models convert reasoning into lists because lists are easy to generate. A bullet
 | --- | --- |
 | Triad cadence everywhere ("clear, concise, and compelling") | Vary item counts; two or one often beats three |
 | Adjective triads in particular | Cut to the one adjective that earns its place |
-| Questions answered immediately | Let questions breathe or cut them |
 | Every paragraph ends punchily | Vary endings; let some paragraphs land quietly |
 | Three consecutive sentences of matching length | Break one |
 | Every sentence opening with the same subject | Vary the opener |
-| "Not always. Not perfectly." | Hedging disguised as reassurance |
+| Same conjunction at every seam ("because," "which," "so") | Alternate the connective; leave some sentences unjoined |
 
 ## Word Patterns
 
 | Pattern | Problem |
 | --- | --- |
 | Lazy extremes (every, always, never, everyone, everybody, nobody) | False authority. Use specifics instead of sweeping claims. |
-| Empty intensifiers ("really," "truly," "literally," "incredibly") | Empty emphasis. See phrases.md; keep adverbs that change meaning. |
 | Same noun four times in five sentences | Vary, or restructure so the noun appears once |

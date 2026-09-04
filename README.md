@@ -4,7 +4,7 @@
 
 This repository is a maintained fork of [stop-slop](https://github.com/hardikpandya/stop-slop) by [Hardik Pandya](https://hvpandya.com). The fork exists to update the skill regularly, package it as a Claude Code plugin, and adapt the rules over time. It preserves the upstream git history, so you can still merge in improvements published there.
 
-The skill treats two failure modes as slop. The first is the familiar AI gloss: filler phrases and throat-clearing openers, formulaic structures (binary contrasts, negative listings, rhetorical question transitions), signature vocabulary ("delve," "leverage," "seamless"), passive voice hiding the actor, vague declaratives, and pull-quote bait. The second is overcorrection, prose compressed into six-word slogans until it reads like a LinkedIn post. The target sits between them: fluent, natural US English with concrete subjects, real verbs, and varied rhythm. Rules and the five-axis scoring grid live in [SKILL.md](skills/writing-english-prose/SKILL.md), with the full catalogs in the references folder.
+The skill treats two failure modes as slop. The first is the familiar AI gloss: filler phrases and throat-clearing openers, formulaic structures (binary contrasts, negative listings, rhetorical question transitions), signature vocabulary ("delve," "leverage," "seamless"), passive voice hiding the actor, vague declaratives, and pull-quote bait. The second is overcorrection, prose compressed into six-word slogans until it reads like a LinkedIn post. The target sits between them: fluent, natural US English with concrete subjects, real verbs, and varied rhythm. The rewrite stays faithful to the source: it adds no number, cause, or actor the original doesn't contain, and flags a vague passage to the author rather than fill it in. Rules and the five-axis scoring grid live in [SKILL.md](skills/writing-english-prose/SKILL.md), with the full catalogs in the references folder.
 
 ## Layout
 
@@ -14,9 +14,15 @@ skill-english-prose/
 │   ├── plugin.json
 │   └── marketplace.json
 ├── .github/
+│   ├── scripts/
+│   │   └── validate.mjs
+│   ├── workflows/
+│   │   └── validate.yml
+│   ├── dependabot.yml
 │   └── FUNDING.yml
 ├── .gitattributes
 ├── .gitignore
+├── .markdownlint-cli2.jsonc
 ├── README.md
 ├── CHANGELOG.md
 ├── LICENSE
@@ -58,7 +64,7 @@ When the skill changes in this repo, re-copy the `skills/writing-english-prose/`
 
 Once installed, the skill triggers whenever you ask Claude to draft, edit, or review English text; Claude recognizes the request from the skill's `description` and applies the rules on its own. You can also invoke it explicitly by name for a full pass (`/writing-english-prose:writing-english-prose` when installed as a plugin, `/writing-english-prose` when copied manually), which forces a rule-by-rule review against the reference catalogs.
 
-The skill works in three layers, which you can read separately. `SKILL.md` holds the eighteen core rules, a note on weighing tells by density, the quick checks, the scoring grid (five axes: flow, directness, concreteness, authenticity, economy, with a rewrite threshold at 35 of 50), and a special-case section for UI strings, where terminology consistency overrides lexical variety. [references/phrases.md](skills/writing-english-prose/references/phrases.md) catalogs the phrases to cut: throat-clearing openers, marketing openers and closers, AI vocabulary, business jargon, wordy constructions, nominalizations, empty intensifiers, stacked hedges, and chat artifacts. [references/structures.md](skills/writing-english-prose/references/structures.md) covers the formulaic shapes (contrasts, see-saws, fragmentation, over-compression, the over-corrected register, bullet-point abuse, false agency, punctuation habits), and [references/examples.md](skills/writing-english-prose/references/examples.md) shows twenty-six before-and-after rewrites.
+The skill works in three layers, which you can read separately. `SKILL.md` holds the core rules, a note on weighing tells by density, the quick checks grouped by family (fidelity to the source, flow, wording, actors, structures, openers and closers, substance, typography), the scoring grid (five axes: flow, directness, concreteness, authenticity, economy, with one bounded rewrite when a check still fails or the total falls below 35 of 50), and a special-case section for UI strings, where terminology consistency overrides lexical variety. [references/phrases.md](skills/writing-english-prose/references/phrases.md) catalogs the phrases to cut: throat-clearing openers, marketing openers and closers, AI vocabulary, business jargon, wordy constructions, nominalizations, redefinition verbs, pleonasms, empty intensifiers, stacked hedges, and chat artifacts. [references/structures.md](skills/writing-english-prose/references/structures.md) covers the formulaic shapes (contrasts, see-saws, fragmentation, over-compression, the over-corrected register, learned litotes, bullet-point abuse, false agency, punctuation habits), and [references/examples.md](skills/writing-english-prose/references/examples.md) shows a before-and-after rewrite per family of tells, each built from the "Before" alone.
 
 ## Quick test
 
@@ -66,7 +72,7 @@ To check that the skill is loaded and working, give Claude the paragraph below a
 
 > In today's fast-paced digital landscape, leveraging AI isn't just a game-changer; it's a necessity. The result? Teams that seamlessly navigate complexity. No fluff. No filler. Just results. Moreover, it's important to note that this approach truly empowers organizations to unlock their full potential. Whether you're a scrappy startup or a Fortune 500, the implications are significant. Let that sink in.
 
-If the skill is active, Claude should identify most of these tells, rewrite the paragraph as flowing sentences with a concrete subject and a named gain, and score the result above 35 of 50. If the reply keeps the fragments and the question-answer transition, or merely compresses everything into slogans, the skill was not loaded.
+If the skill is active, Claude should identify most of these tells, rewrite the paragraph as flowing sentences with a concrete subject, report a score above 35 of 50 with the count of checks still failing, and refrain from inventing a figure or a gain the paragraph never states. If the reply keeps the fragments and the question-answer transition, merely compresses everything into slogans, or pads the rewrite with made-up numbers, the skill was not loaded.
 
 ## Tracking upstream
 

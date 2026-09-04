@@ -8,6 +8,21 @@ This repository is a maintained fork of [hardikpandya/stop-slop](https://github.
 
 ## [Unreleased]
 
+### Added
+
+- A fidelity-to-the-source rule, ported from the sibling `skill-prose-francaise`: the rewrite adds no number, cause, actor, or example the source lacks, keeps the length close to the original, and flags a vague passage rather than fill it in, with a "Fidelity to the source" family heading the quick checks. Sixteen "After" examples that invented facts are rebuilt from their "Before" alone, with a note wherever the source stays vague.
+- A counterweight to rule 1: the same conjunction at every seam ("because" joining each sentence) is as mechanical as the fragments it replaced, with a quick check and a rhythm-table row.
+- Three families of tells, each with a reference section and a quick check: learned litotes ("not without merit," "it is not uncommon for"), redefinition verbs ("reimagine," "revolutionize"), and pleonasms ("advance planning," "end result").
+
+### Changed
+
+- The skill description names UI strings and locale files among its triggers, so autodiscovery fires on a translation file; the plugin manifest carries the same description.
+- Scoring rests on an objective criterion: any quick check still failing triggers the rewrite regardless of score, the loop is bounded to one rewrite, and the delivered text carries its score and the count of checks still failing.
+- The AI-vocabulary quick check splits into loud words replaced on sight and borderline words thinned only when they cluster, matching the "Weighing tells" section it contradicted.
+- Rule 6 and the passive-voice entry name the actor the text designates and keep the impersonal form when it designates no one, instead of injecting "you" into third-person prose.
+- The examples reference drops its unlinked table of contents, and the README no longer hard-codes the number of rules or examples; its layout tree now lists the CI files added in 1.2.0.
+- Duplicate entries in the phrases reference are merged, the sentence adverbs ("interestingly," "notably") leave the intensifier list for their own note, and the rhythm and word-pattern tables drop the rows that repeated other sections.
+
 ## [1.2.0] - 2026-07-05
 
 ### Added
