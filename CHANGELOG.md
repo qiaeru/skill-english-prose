@@ -8,6 +8,8 @@ This repository is a maintained fork of [hardikpandya/stop-slop](https://github.
 
 ## [Unreleased]
 
+## [1.3.0] - 2026-09-04
+
 ### Added
 
 - A fidelity-to-the-source rule, ported from the sibling `skill-prose-francaise`: the rewrite adds no number, cause, actor, or example the source lacks, keeps the length close to the original, and flags a vague passage rather than fill it in, with a "Fidelity to the source" family heading the quick checks. Sixteen "After" examples that invented facts are rebuilt from their "Before" alone, with a note wherever the source stays vague.
