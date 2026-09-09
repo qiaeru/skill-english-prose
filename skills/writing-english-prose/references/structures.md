@@ -19,8 +19,10 @@ These create false drama. State the point directly.
 | "doesn't mean X, but actually Y" | Negation-then-assertion crutch |
 | "is about X but not Y" | False distinction |
 | "not just X but also Y" | Additive hedge |
+| "This doesn't mean X. It means Y." | Same formula, split across two sentences |
+| "..., no guessing" / "..., no setup required" (clipped negative tail) | Denies something no one claimed, to make the positive half sound larger |
 
-**Instead:** State Y directly, in a full sentence. If the contrast with X carries real information, fold it in as a clause: "The problem is Y, not X."
+**Instead:** State Y directly, in a full sentence. If the contrast with X carries real information, fold it in as a clause: "The problem is Y, not X." The test: does the negative half correct a belief the reader actually holds, or one nobody claimed?
 
 ## See-Saw Constructions
 
@@ -58,8 +60,10 @@ Sentence fragments for emphasis read as manufactured profundity.
 | "This unlocks something. [Word]." | Artificial revelation |
 | "No X. No Y. Just Z." | Ad-copy cascade |
 | "One word: [word]." | Fake punchline |
+| A one-sentence paragraph restating the paragraph before it | Asks for a pause instead of adding a fact |
+| The same closer after several sections ("That's the real win.") | Refrain, not argument |
 
-**Instead:** Complete sentences. Trust content over presentation.
+**Instead:** Complete sentences. Trust content over presentation. One short sentence carries emphasis when it carries a new fact; cut the one that repeats.
 
 ## Over-Compression
 
@@ -116,6 +120,19 @@ These announce insight rather than deliver it.
 
 **Instead:** Make the point. Let readers draw conclusions.
 
+## Arguing with No One
+
+The text answers an objection or rejects an option that appears nowhere else, usually a leftover from an earlier draft or a hedge against an imagined critic.
+
+| Pattern | Problem |
+| --- | --- |
+| "I'm not saying X" / "This is not to say" / "This isn't (mainly) about" | Denies a claim no one made |
+| "To be clear," / "Don't get me wrong," | Braces for a misreading the text never invited |
+| "Some might say... but" / "You might think... but" | Straw objection, then the point |
+| "A tempting approach would be" / "One might be tempted to" / "It would be easy to just" | Rejects an option no reader was weighing |
+
+**Instead:** Cut the defense and state the claim it was guarding. Keep an objection the text attributes to someone or answers in full, and keep an alternative a reader would actually weigh. Several unrelated rejections in a row are a stronger sign than one.
+
 ## Learned Litotes
 
 Affirming by double negation. The construction sounds measured and weakens what it asserts; models use it as a hedge with a scholarly accent.
@@ -130,6 +147,19 @@ Affirming by double negation. The construction sounds measured and weakens what 
 | "no small feat" / "no small part" | "hard" / "much of" |
 
 **Instead:** Affirm. One litotes for an ironic understatement is a writer's choice; the tell is the reflex that never states a thing outright.
+
+## Aphorism Templates
+
+An ordinary point dressed as a hidden truth. The shape is borrowed from proverbs; the content is a plain claim in costume.
+
+| Pattern | Problem |
+| --- | --- |
+| "X is the language of Y" / "the currency of" / "the architecture of" | Metaphor of abstraction; says nothing about X |
+| "X is the Y of Z" ("the Uber of dentistry") | Comparison in place of a description |
+| "X becomes a trap" / "X is not a tool but a mirror" | Fake reversal with no mechanism |
+| "The real question is" / "the deeper issue" / "the heart of the matter" | Announces depth instead of showing it |
+
+**Instead:** Replace the saying with the specific claim: "Users find symmetric layouts easier to predict" beats "Symmetry is the language of trust." The pull-quote check in SKILL.md catches the same reflex at the sentence level.
 
 ## Pseudo-Clefts and Wh- Crutches
 
@@ -169,6 +199,9 @@ A comma plus an "-ing" clause hangs a consequence or a judgment on the end of th
 | "The Power of X" / "Unlocking X" / "A Deep Dive into X" (titles) | Content-farm headline |
 | "7 ways to X" / "5 signs that Y" / "N things..." (listicle headlines) | Content-farm scaffolding; write the piece, not the countdown |
 | Fixed intro / three body paragraphs / "in summary" conclusion | A template, not a structure; let the order follow the argument, and most pieces need no recap |
+| A heading restated by its first sentence ("## Performance," then "Speed matters.") | Runway before the content; cut the restatement |
+| A top-level heading that repeats the document title | The title stated once is enough |
+| Documentation describing what the current text replaced ("added to replace the old loop") | The reader needs the current behavior; history belongs in changelogs and migration guides |
 
 ## False Agency
 
@@ -221,7 +254,7 @@ Decoration doing the work the sentence should do.
 | Bold words scattered through prose | If a word must stand out, rewrite the sentence so it does |
 | Bold-label lead-ins (`**Speed:** the build...`) starting list items or paragraphs | Drop the boldface label; write a normal sentence or a real heading |
 | Emoji in prose (🚀, ✅, 💡) | Delete; the word carries the meaning |
-| Emoji as bullet markers or section headings | Plain markers and text headings; an emoji inside a sentence is a separate call |
+| Emoji or arrows (→) as bullet markers or section headings | Plain markers and text headings; an emoji inside a sentence is a separate call |
 | Em dashes | Comma, period, or parentheses |
 | Horizontal-rule dividers (`---`) between sections | Use paragraph breaks or a heading |
 | ALL CAPS for emphasis | Rewrite |
@@ -236,6 +269,7 @@ Decoration doing the work the sentence should do.
 | Ellipses for trailing drama... | End the sentence |
 | Title Case On Common Nouns mid-sentence ("our Marketing Team") | Lowercase; reserve capitals for proper nouns |
 | Missing serial comma ("A, B and C") | US convention: "A, B, and C" |
+| Hyphen kept on a compound after its noun ("the report is high-quality," "runs in real-time") | Hyphenate before the noun ("a high-quality report") and drop it after ("the report is high quality") |
 
 ## Bullet-Point Abuse
 

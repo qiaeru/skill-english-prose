@@ -48,6 +48,19 @@ Openers that address an imaginary market segment instead of a reader. Cut them, 
 - "Picture this:" / "Imagine this:" / "Imagine a world where"
 - "We've all been there."
 
+## Brochure Language
+
+Adjectives from a tourism board or a product page, attached most often to places, cultures, products, and organizations. State what the thing is. "Vibrant," "nestled," and "boasts" sit in the tables below.
+
+- "breathtaking" / "stunning"
+- "renowned" / "world-renowned"
+- "must-visit" / "must-have"
+- "rich cultural heritage" / "rich history"
+- "natural beauty"
+- "diverse array of"
+- "a commitment to excellence"
+- "groundbreaking" (figurative)
+
 ## Cliché Closers
 
 Endings that gesture at significance instead of landing on substance. End on a concrete point instead.
@@ -94,7 +107,6 @@ Words a model reaches for and a person rarely does. Prefer the short, plain word
 | Fast-paced | Busy (or cut) |
 | Streamline | Simplify |
 | Facilitate | Help, make easier |
-| Boasts | Has |
 | A testament to | Shows |
 | A rich tapestry | Cut; name the parts |
 | Game-changer | Name what changed |
@@ -103,7 +115,12 @@ Words a model reaches for and a person rarely does. Prefer the short, plain word
 | Deep dive | Close look, analysis |
 | Ensure / ensuring | Check, guarantee; or name what actually prevents the failure |
 | Key (as in "key insights") | Main, central; or show why it matters |
-| Serves as / stands as | Is |
+| Intricate / intricacies | Complex, detailed; or name the parts |
+| Interplay | Say how the two things affect each other |
+| Meticulous(ly) | Careful(ly), or cut |
+| Garner | Get, win, earn |
+| Enduring / lasting (as praise) | Cut, or say how long it has held |
+| Quietly (as a significance cue: "quietly shipped") | Cut |
 | Aims to | Say what it does, not what it intends |
 | Vibrant | Name what is actually happening there |
 | Nestled (in the heart of) | In, near |
@@ -125,6 +142,17 @@ Replace with plain language.
 | Synergy | Name what combines and why it helps |
 | Touch base | Talk, check in |
 | Low-hanging fruit | The easy wins (or name them) |
+
+## Copula Dodges
+
+Longer verbs standing in for "is," "are," and "has." Use the short verb.
+
+| Avoid | Use instead |
+| --- | --- |
+| Serves as / stands as / functions as / operates as | Is |
+| Represents (a) / marks (a) | Is; or name the actual event |
+| Boasts / features / offers / maintains (a) | Has |
+| Refers to | Is, means |
 
 ## Wordy Constructions
 
@@ -222,6 +250,8 @@ At most one connector opener per paragraph. Usually, just start the sentence.
 ## Filler Phrases
 
 - "At its core"
+- "In reality"
+- "What really matters is"
 - "It's worth noting"
 - "It's important to note"
 - "Needless to say"
@@ -293,6 +323,8 @@ Assistant-voice remnants that mark text as model output. Delete on sight.
 
 The trailing offer ("Want me to expand this?") and the boilerplate disclaimer are the clearest proof a model wrote the text; cut every trace before publishing.
 
+The knowledge-gap guess is the same residue one step further: the text admits it found no source ("while specific details are limited," "based on available information," "not widely documented," "maintains a low profile") and then fills the gap with a plausible guess ("likely grew up in," "appears to have been founded in the 1990s"). Say what the source doesn't show, or cut the sentence; never present a guess as a fact.
+
 ## Meta-Commentary
 
 Remove self-referential asides. The essay should move, not announce its own structure.
@@ -331,6 +363,45 @@ Announcing difficulty or significance rather than demonstrating it:
 - "This is what X actually looks like"
 - "actually matters"
 - "cannot be overstated"
+
+## Inflated Significance
+
+An ordinary fact dressed as a turning point, a legacy, or a promise. The fact underneath is usually sound; keep it and drop the dressing.
+
+- "marking a pivotal moment in" / "a crucial moment"
+- "plays a key role in" / "plays a vital role in"
+- "setting the stage for"
+- "reflects a broader"
+- "an enduring legacy" / "a lasting legacy" / "left an indelible mark"
+- "underscores its importance"
+- "a step in the right direction"
+- "exciting times ahead" / "the future looks bright"
+
+The move scales up to the paragraph. A stock "challenges and outlook" section ("Despite these challenges, X continues to thrive") and a send-off paragraph promising the future say nothing the reader can use; cut them and end on the last concrete fact, or on the plans the source actually states.
+
+## Vague Connections
+
+The text says two things are connected without saying how. "He was associated with the leadership of the company" hides whether he ran it, sat on its board, or advised it.
+
+- "associated with" / "in association with"
+- "connected to" / "in connection with"
+- "linked to" / "tied to"
+- "involved in" / "involved with"
+
+Name the relationship the source gives ("founded," "chaired," "sponsored"). When the source doesn't say, keep the vague word; inventing a role is the worse error.
+
+## Borrowed Authority
+
+An unnamed authority stands in for what was said, or a list of prestige outlets stands in for a person's work.
+
+- "experts argue" / "experts believe" / "experts agree"
+- "observers have noted" / "some critics say"
+- "industry reports suggest" / "studies show" (with no study named)
+- "several publications" / "cited in [a list of outlets]" / "featured in"
+- "trade publications" / "independent coverage"
+- "an active social media presence" / "over N followers"
+
+When the text names the real source and what it said, use that. Otherwise cut the unsupported claim or the list. Never invent a source; a missing citation on its own is not a tell, since most writing is unsourced.
 
 ## Vague Declaratives
 

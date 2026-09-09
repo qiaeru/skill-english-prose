@@ -8,6 +8,18 @@ This repository is a maintained fork of [hardikpandya/stop-slop](https://github.
 
 ## [Unreleased]
 
+### Added
+
+- New tells drawn from [blader/humanizer](https://github.com/blader/humanizer) (MIT), itself built on Wikipedia's "Signs of AI writing," kept where they fit the fluency philosophy: the objection nobody raised ("I'm not saying," "To be clear," "One might be tempted to"), aphorism templates ("X is the currency of Y," "X becomes a trap"), vague connections ("associated with," "linked to"), borrowed authority ("experts agree," a list of outlets propping up a claim), inflated significance ("marking a pivotal moment," the stock "despite these challenges" paragraph), the knowledge-gap guess ("not widely documented, she likely..."), copula dodges ("serves as," "boasts"), brochure adjectives, the one-sentence paragraph that restates the one before it, the heading restated by its first sentence, documentation describing what it replaced, the contrast split across sentences and the clipped negative tail, and the hyphen kept on a compound after its noun. Each gets a reference entry and a quick check.
+- Voice matching: when the author supplies a writing sample, the skill matches its register and keeps its habits, with only the single-instance tells still removed. A file-editing note leaves code, paths, frontmatter, and link targets untouched.
+- The reread step names the five tells that most often survive a rewrite (a contrast, a one-line closer, an em dash, a triad, a bold label), and rule 2 of the process refuses to fill a gap the text itself admits with a plausible guess.
+- "Weighing tells" exempts a watched phrase inside a quotation, a title, a proper name, or a discussion of the phrase, and lists what carries the writer's voice and stays even when it brushes a check (an odd detail, an admitted mixed feeling, a self-correction in parentheses).
+- Four before/after pairs (arguing with no one, borrowed authority with inflated significance, the knowledge-gap guess, a vague connection with copula dodges), bringing the examples reference to thirty-two.
+
+### Changed
+
+- "Serves as" and "boasts" leave the AI vocabulary table for the new copula-dodge table, and six words join it ("intricate," "interplay," "meticulous," "garner," "enduring," "quietly" as a significance cue). The filler list gains "in reality" and "what really matters is."
+
 ## [1.3.0] - 2026-09-04
 
 ### Added

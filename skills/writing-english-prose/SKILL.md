@@ -11,19 +11,23 @@ Write English that reads like a good human writer, not like a model. Two failure
 
 Apply to essays, blog posts, documentation, READMEs, emails, announcements, and any professional prose in US English. Skip fiction, poetry, lyrics, legal text, and direct quotes, where these rules would flatten a deliberate voice. Register target: plain American magazine prose (a good engineering blog, The Atlantic, a Paul Graham essay), conversational but precise. Contractions are normal written English; use them.
 
+If the author supplies a writing sample, read it before the text and match its sentence length, word choice, punctuation, and openers. The sample sets the register and overrides the borderline checks: a habit it shows (a favorite connector, a parenthetical aside, a long sentence now and then) stays in the rewrite. Only the single-instance tells (the em dash, assistant boilerplate) still go.
+
 ## Process
 
 For a full edit or rewrite:
 
 1. Read the whole text before correcting anything; rhythm, repetition, and cadence tells only show across paragraphs.
-2. Fix the form, not the facts. Add no number, cause, actor, or example the source doesn't contain; when the source stays vague, keep the rewrite sober or flag the gap to the author rather than fill it.
+2. Fix the form, not the facts. Add no number, cause, actor, or example the source doesn't contain; when the source stays vague, keep the rewrite sober or flag the gap to the author rather than fill it. A gap the text itself admits ("details are not widely documented") never gets a plausible guess in its place.
 3. Keep the length close to the original. Joining fragments and cutting filler move words around; they don't add them.
 4. Apply the core rules, opening the references as needed.
 5. Run the quick checks on the result and count the ones that still fail.
 6. Score on the five axes. Rewrite once if any check still fails or the total falls below 35/50, then deliver the better version with its score and the number of checks still failing.
-7. Reread your own output with the same checks. The corrected text must pass the rules it enforces.
+7. Reread your own output with the same checks. Five tells survive a rewrite more often than the rest, so search for them by name: a not-X-but-Y contrast, a one-line closer, an em dash, a triad, a bold label. The corrected text must pass the rules it enforces.
 
 For a short text (an email, a message, one paragraph), apply the rules without the scoring grid.
+
+When editing a file rather than pasted text, change the prose only. Code blocks, inline code, commands, paths, frontmatter, data, and link targets stay as they are, even when a path or a command contains a word the checks would flag.
 
 ## Special case: UI strings
 
@@ -43,13 +47,13 @@ An interface file (application labels, locale files) mixes two registers; split 
 
 3. **Use plain words.** Prefer the short Anglo-Saxon word to the Latinate one: "use" over "utilize," "start" over "embark on," "dig into" over "delve into." The AI vocabulary list ("leverage," "seamless," "robust," "tapestry," "testament"), the redefinition verbs that announce a change without naming it ("reimagine," "revolutionize"), and the pleonasms ("advance planning," "end result") are in [references/phrases.md](references/phrases.md).
 
-4. **Break formulaic structures.** Binary contrasts, negative listings, see-saw constructions, rhetorical setups, participial consequence tails, triad cadence, and the learned litotes ("not without merit," "it is not uncommon for") that affirm by double negation. See [references/structures.md](references/structures.md).
+4. **Break formulaic structures.** Binary contrasts, negative listings, see-saw constructions, rhetorical setups, participial consequence tails, triad cadence, the learned litotes ("not without merit," "it is not uncommon for") that affirm by double negation, and the objection nobody raised ("I'm not saying," "One might be tempted to") that argues with an earlier draft. See [references/structures.md](references/structures.md).
 
 5. **Prefer active voice.** Find the actor and put them at the front. Passive stays legitimate when the actor is unknown or beside the point ("he was arrested in May"); the tell is passive used to dodge naming who did what.
 
 6. **No false agency.** Complaints don't become fixes, decisions don't emerge, data doesn't tell. Name the person the text points to (the sender, the team named earlier). When the text addresses a reader and no one else fits, use "you"; when it names no one, keep the impersonal or passive form rather than invent an actor.
 
-7. **Be specific.** No vague declaratives ("the implications are significant"). Name the implication, with the number or concrete object the source provides, even if the sentence gets longer. Never invent one to sound concrete: strip the vagueness and let the author supply the fact.
+7. **Be specific.** No vague declaratives ("the implications are significant"). Name the implication, with the number or concrete object the source provides, even if the sentence gets longer. Never invent one to sound concrete: strip the vagueness and let the author supply the fact. The same restraint applies to a vague connection ("associated with," "linked to") and an unnamed authority ("experts argue"): name the relationship or the source the text gives, and when it gives none, keep the vague word rather than invent a role or a citation.
 
 8. **Put the reader in the room.** "You" beats "people," a scene beats a generalization, the lecturer-from-a-distance voice ("This happens because...") goes.
 
@@ -63,7 +67,7 @@ An interface file (application labels, locale files) mixes two registers; split 
 
 13. **Trust readers.** State facts directly; skip softening, justification, and hand-holding. Cut "it's important to note," "needless to say," and every sentence that tells readers what they're about to understand.
 
-14. **Cut quotables.** If a sentence sounds like a pull-quote or a slide title, rewrite it as a working sentence.
+14. **Cut quotables.** If a sentence sounds like a pull-quote or a slide title, or fills an aphorism template ("X is the currency of Y," "X becomes a trap"), rewrite it as a working sentence with the specific claim.
 
 15. **Vary everything that repeats.** Sentence lengths, paragraph endings, item counts in lists, sentence openers. Three matching lengths in a row, or every paragraph landing on a zinger, reads machine-made.
 
@@ -77,6 +81,8 @@ An interface file (application labels, locale files) mixes two registers; split 
 
 Most tells are about concentration, not the single instance. A lone "comprehensive," one "navigate," one stacked hedge is how people write; the same word four times in a paragraph is the tell. Weight a pattern by how thickly it clusters, and don't hunt a borderline word through an otherwise-human page. The loud vocabulary ("delve," "tapestry," "leverage," "seamless") still goes on sight, but the borderline words that double as ordinary English ("robust," "comprehensive," "navigate," "utilize," "ensure," "key") earn a fix when they cluster, not on a lone hit. Two tells are the exception, flagged wherever they appear and counted on a single instance: the em dash, and leftover assistant boilerplate ("As an AI language model"). Either one, even once, is a real signal.
 
+Leave a watched phrase alone inside a quotation, a title, a proper name, or a passage that discusses the phrase rather than uses it. Keep what carries the writer's voice even when it brushes a check: an odd specific detail, an admitted mixed feeling ("mostly good, and it still bothers me"), a self-correction in parentheses, a dated reference, a first-person choice the writer could defend. Removing tells is half the job; the result must still sound like a person.
+
 ## Quick checks
 
 Run each group before delivering. The list is part of the skill on the same footing as the core rules, since it also covers tells without a numbered rule.
@@ -85,6 +91,8 @@ Run each group before delivering. The list is part of the skill on the same foot
 
 - Number, cause, actor, or example that the source doesn't contain? Remove it, or flag the gap to the author.
 - Text noticeably longer than the original, or a claim shifted by the rewrite? Tighten and restore.
+- Gap filled with a guess ("likely grew up in," "appears to have been founded in the 1990s") or a knowledge disclaimer ("details are limited," "based on available information")? Say what the source doesn't show, or cut the sentence.
+- Unnamed authority ("experts agree," "observers note," "industry reports") or a list of outlets propping up a claim? Use the source the text names and what it said; otherwise cut.
 
 ### Flow and rhythm
 
@@ -94,6 +102,7 @@ Run each group before delivering. The list is part of the skill on the same foot
 - Three consecutive sentences of matching length? Break one.
 - Triad cadence everywhere ("clear, concise, and compelling")? Vary item counts; two or one often beats three.
 - Same word or sentence opener repeated at close range? Vary.
+- One-sentence paragraph restating the paragraph before it, or the same closer after several sections? Cut the repeat.
 
 ### Wording
 
@@ -106,6 +115,7 @@ Run each group before delivering. The list is part of the skill on the same foot
 - Borderline word clustering ("robust," "comprehensive," "navigate," "utilize," "ensure," "key" several times in one passage)? Thin the cluster; leave a lone instance alone.
 - Redefinition verb ("reimagine," "reinvent," "redefine," "revolutionize," "transform" with nothing named)? Name what changes, or leave it to the author.
 - Pleonasm ("advance planning," "end result," "collaborate together," "each and every")? Cut the redundant half.
+- Copula dodge ("serves as," "functions as," "represents," "features," "boasts")? Use "is," "are," "has."
 - "Moreover," "Furthermore," "Additionally" opening sentences? At most one connector opener per paragraph; usually just start the sentence.
 
 ### Actors and voice
@@ -117,7 +127,8 @@ Run each group before delivering. The list is part of the skill on the same foot
 
 ### Formulaic structures
 
-- "Not X. But Y." or "isn't just X; it's Y"? State Y.
+- "Not X. But Y." or "isn't just X; it's Y," including the contrast split across sentences ("This doesn't mean X. It means Y.") and the clipped negative tail (", no guessing")? State Y.
+- Objection nobody raised ("I'm not saying," "To be clear," "Don't get me wrong," "One might be tempted to")? Cut the defense; keep an objection only when the text attributes it or a reader would weigh it.
 - "Less X, more Y" or "Think X, not Y" see-saw? Write the full sentence.
 - Negative listing ("It's not A. It's not B. It's C.")? State C.
 - Rhetorical question answered immediately ("The catch? ...")? State it.
@@ -137,13 +148,18 @@ Run each group before delivering. The list is part of the skill on the same foot
 
 - Vague declarative ("The implications are significant")? Name the specific implication from the source, or cut the sentence; don't make one up.
 - Paragraph that restates the prompt or could be cut with nothing lost? Make a real claim or delete it.
-- Pull-quote sentence? Rewrite as a working sentence.
+- Vague connection ("associated with," "linked to," "tied to")? Name the relationship the source gives; if it gives none, keep the vague word rather than invent a role.
+- Inflated significance ("marking a pivotal moment," "plays a key role," "setting the stage for," "lasting legacy"), or a stock "despite these challenges, X continues to thrive" paragraph? Keep the fact, drop the significance, and end on the last concrete fact.
+- Pull-quote sentence or aphorism template ("X is the currency of Y," "X becomes a trap," "the architecture of")? Rewrite as a working sentence.
+- Documentation describing what the current text replaced ("added to replace the old loop")? Describe the current behavior; history belongs in changelogs and migration guides.
 
 ### Typography, format, and conventions
 
 - Em dash? Comma, period, or parentheses.
 - Bold emphasis or emoji in prose? Remove; rewrite if the word needs weight.
-- Bold-label lead-in ("**Speed:** ..."), `---` divider, or emoji as a bullet or heading? Drop the label, use paragraph breaks, use plain markers.
+- Bold-label lead-in ("**Speed:** ..."), `---` divider, or emoji or arrow (→) as a bullet or heading? Drop the label, use paragraph breaks, use plain markers.
+- Heading restated by its first sentence, or a top-level heading repeating the document title? Cut the repeat.
+- Hyphen kept on a compound after its noun ("the report is high-quality")? Hyphenate before the noun only.
 - Semicolon where a period flows better? Replace. Keep it only to balance two related clauses.
 - Colon that only announces ("Here's the key insight:")? Cut the announcement.
 - Bullet list carrying an argument? Convert to a connected paragraph; keep bullets for parallel items.

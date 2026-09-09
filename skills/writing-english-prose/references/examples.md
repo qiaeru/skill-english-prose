@@ -286,3 +286,43 @@ Each "After" shows fluent, natural US English: full sentences that connect and b
 > "Have you had a chance to look at the proposal I sent last week? If any part of it needs explaining, tell me which one."
 
 **Changes:** Cut the stock opener, the double "reach out," and the canned closers; the email now opens with the ask and ends with a concrete next step, and "last week" stays as the source wrote it.
+
+## Example 29: Arguing with No One
+
+**Before:**
+> "I'm not saying code review is a waste of time. Don't get me wrong, some teams get a lot out of it. One might be tempted to drop it entirely, but that would be an overreaction. The point is that a review queue longer than a day slows every merge behind it."
+
+**After:**
+> "A review queue longer than a day slows every merge behind it."
+
+**Changes:** Three sentences fended off objections the text never received (that review is useless, that it should be dropped), then a fourth announced the point. The claim they guarded stands on its own, with the source's own threshold.
+
+## Example 30: Borrowed Authority and Inflated Significance
+
+**Before:**
+> "Experts agree that the 2019 redesign marked a pivotal moment in the company's history, setting the stage for its later growth. The product has since been featured in TechCrunch, Wired, The Verge, and several trade publications."
+
+**After:**
+> "The company redesigned the product in 2019 and has grown since. TechCrunch, Wired, and The Verge have covered it."
+
+**Changes:** The unnamed experts and the two significance phrases went; the redesign, its date, and the later growth are the source's own. The three named outlets stay as facts, and the unnamed "trade publications" go, since the source can't say which.
+
+## Example 31: Knowledge-Gap Guess
+
+**Before:**
+> "While details about her early career are not widely documented, she likely began in local journalism before moving to policy work, which appears to have shaped her later focus on housing."
+
+**After:**
+> "Her early career is not documented in the available sources. Her later work focused on housing."
+
+**Changes:** The disclaimer and the two guesses hung on it ("likely," "appears to have") went. The rewrite says what the source doesn't show and keeps the one fact it does, the housing focus; the author can supply the career history or leave the gap.
+
+## Example 32: Vague Connection and Copula Dodge
+
+**Before:**
+> "She is associated with the Northside Food Bank, which she founded in 2015 and continues to run. The organization serves as the main distribution point for the district and boasts over forty volunteers."
+
+**After:**
+> "She founded the Northside Food Bank in 2015 and still runs it. It is the district's main distribution point and has more than forty volunteers."
+
+**Changes:** "Associated with" gave way to the relationship the source itself names a few words later; "serves as" and "boasts" became "is" and "has." Every name, date, and count is the source's own.
