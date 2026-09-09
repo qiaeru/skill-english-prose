@@ -8,6 +8,8 @@ This repository is a maintained fork of [hardikpandya/stop-slop](https://github.
 
 ## [Unreleased]
 
+## [1.4.0] - 2026-09-09
+
 ### Added
 
 - New tells drawn from [blader/humanizer](https://github.com/blader/humanizer) (MIT), itself built on Wikipedia's "Signs of AI writing," kept where they fit the fluency philosophy: the objection nobody raised ("I'm not saying," "To be clear," "One might be tempted to"), aphorism templates ("X is the currency of Y," "X becomes a trap"), vague connections ("associated with," "linked to"), borrowed authority ("experts agree," a list of outlets propping up a claim), inflated significance ("marking a pivotal moment," the stock "despite these challenges" paragraph), the knowledge-gap guess ("not widely documented, she likely..."), copula dodges ("serves as," "boasts"), brochure adjectives, the one-sentence paragraph that restates the one before it, the heading restated by its first sentence, documentation describing what it replaced, the contrast split across sentences and the clipped negative tail, and the hyphen kept on a compound after its noun. Each gets a reference entry and a quick check.
