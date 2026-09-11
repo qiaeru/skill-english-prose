@@ -25,16 +25,46 @@ Remove these announcement phrases. State the content directly.
 
 Any "here's what/this/that" construction is throat-clearing before the point. Cut it and state the point.
 
-## Emphasis Crutches
+The same runway shows up mid-text as a stock phrase that delays the clause it introduces. Cut it and start with the clause.
 
-These add no meaning. Delete them.
+- "At its core"
+- "In reality" / "The reality is"
+- "What really matters is"
+- "It's worth noting" / "It's important to note"
+- "Needless to say"
+- "When it comes to"
+- "First and foremost" / "Last but not least"
+
+Performed candor is the runway with a sincerity costume: an opener that stages honesty instead of stating the thing. Cut it; a claim stated plainly reads as more honest than one announced as honest.
+
+- "Honestly," (opening a sentence to perform candor)
+- "Look, I get it"
+- "I promise" / "Trust me on this"
+
+## Announced Emphasis
+
+Lines that tell the reader how much a point weighs instead of showing it. If the point is clear, delete the line; if it isn't, add the fact or the example that makes it clear, and drop the label.
+
+Crutches that ask for a pause:
 
 - "Full stop." / "Period."
-- "Let that sink in."
-- "This matters because" / "Here's why that matters"
+- "Let that sink in." / "Read that again."
 - "Make no mistake"
-- "Read that again."
 - "And honestly? That's the point."
+
+Significance asserted rather than shown:
+
+- "This matters because" / "Here's why that matters"
+- "This is genuinely hard"
+- "This is what X actually looks like"
+- "actually matters" / "cannot be overstated"
+
+Reader guidance, a line that steps outside the text to say what to notice or how much weight to give it:
+
+- "As you can see"
+- "This distinction matters" / "That last part matters more than it sounds"
+- "The key point is" / "The takeaway here is"
+- "In other words," before a restatement the reader didn't need
 
 ## Faux-Insight Setups
 
@@ -281,19 +311,6 @@ Models open consecutive sentences with formal connectors. Most sentences need no
 
 At most one connector opener per paragraph. Usually, just start the sentence.
 
-## Filler Phrases
-
-- "At its core"
-- "In reality"
-- "What really matters is"
-- "It's worth noting"
-- "It's important to note"
-- "Needless to say"
-- "When it comes to"
-- "The reality is"
-- "First and foremost"
-- "Last but not least"
-
 ## Redefinition Verbs
 
 Verbs that announce a transformation without naming it. A model reaches for them because they sound like a claim while committing to nothing.
@@ -366,6 +383,7 @@ Remove self-referential asides. The essay should move, not announce its own stru
 - "Hint:"
 - "Plot twist:" / "Spoiler:"
 - "You already know this, but"
+- "And that's okay." (permission the reader didn't ask for)
 - "But that's another post"
 - "X is a feature, not a bug"
 - "Dressed up as"
@@ -375,36 +393,6 @@ Remove self-referential asides. The essay should move, not announce its own stru
 - "In this section, we'll..."
 - "As we'll see..."
 - "I want to explore..."
-
-## Performative Emphasis
-
-False intimacy or manufactured sincerity:
-
-- "creeps in"
-- "I promise"
-- "They exist, I promise"
-- "Trust me on this"
-- "Honestly," (opening a sentence to perform candor)
-- "Look, I get it"
-
-## Telling Instead of Showing
-
-Announcing difficulty or significance rather than demonstrating it:
-
-- "This is genuinely hard"
-- "This is what leadership actually looks like"
-- "This is what X actually looks like"
-- "actually matters"
-- "cannot be overstated"
-
-Reader guidance is the same move aimed at the reader instead of the subject: a line that steps outside the text to say what to notice or how much weight to give it.
-
-- "As you can see"
-- "This distinction matters" / "That last part matters more than it sounds"
-- "The key point is" / "The takeaway here is"
-- "In other words," before a restatement the reader didn't need
-
-If the point is clear, delete the aside. If it isn't, add the fact or the example that makes it clear, and drop the label.
 
 ## Inflated Significance
 

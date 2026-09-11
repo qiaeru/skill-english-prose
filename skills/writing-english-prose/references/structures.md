@@ -114,13 +114,12 @@ These announce insight rather than deliver it.
 
 | Pattern | Problem |
 | --- | --- |
-| "What if [reframe]?" | Socratic posturing |
-| "Here's what I mean:" | Redundant preview |
+| "What if [reframe]?" / "What if I told you..." | Socratic posturing |
 | "Think about it:" | Condescending prompt |
-| "And that's okay." | Unnecessary permission |
 | "Sound familiar?" | Manufactured complicity |
+| "Question? Answer." as a self-interview | Same move as the rhetorical question transition above |
 
-**Instead:** Make the point. Let readers draw conclusions.
+**Instead:** Make the point. Let readers draw conclusions. The stock openers that do the same job in one phrase ("Here's what I mean:", "And that's okay.") sit in [phrases.md](phrases.md) under throat-clearing and meta-commentary.
 
 ## Arguing with No One
 
@@ -159,7 +158,7 @@ An ordinary point dressed as a hidden truth. The shape is borrowed from proverbs
 | "X is the language of Y" / "the currency of" / "the architecture of" | Metaphor of abstraction; says nothing about X |
 | "X is the Y of Z" ("the Uber of dentistry") | Comparison in place of a description |
 | "X becomes a trap" / "X is not a tool but a mirror" | Fake reversal with no mechanism |
-| "The real question is" / "the deeper issue" / "the heart of the matter" | Announces depth instead of showing it |
+| "the deeper issue" / "the heart of the matter" / "the real question" | Announces depth instead of showing it |
 
 **Instead:** Replace the saying with the specific claim: "Users find symmetric layouts easier to predict" beats "Symmetry is the language of trust." The pull-quote check in SKILL.md catches the same reflex at the sentence level.
 

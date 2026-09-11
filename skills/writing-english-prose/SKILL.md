@@ -20,7 +20,7 @@ For a full edit or rewrite:
 1. Read the whole text before correcting anything; rhythm, repetition, and cadence tells only show across paragraphs.
 2. Fix the form, not the facts. Add no number, cause, actor, or example the source doesn't contain; when the source stays vague, keep the rewrite sober or flag the gap to the author rather than fill it. A gap the text itself admits ("details are not widely documented") never gets a plausible guess in its place.
 3. Change only what a check flags. A sentence that already passes stays as the author wrote it, even when you would phrase it differently, and the length stays close to the original: joining fragments and cutting filler move words around; they don't add them. The author should recognize the result as their own draft.
-4. Apply the core rules, opening the references as needed.
+4. Apply the core rules. Open [references/phrases.md](references/phrases.md) when vocabulary or stock phrases cluster, [references/structures.md](references/structures.md) for tells of shape and rhythm, and [references/examples.md](references/examples.md) to calibrate how far a rewrite should go.
 5. Run the quick checks on the result and count the ones that still fail.
 6. Score on the five axes. Rewrite once if any check still fails or the total falls below 35/50, then deliver the better version with its score, the number of checks still failing, and a short note of what changed, including any gap left for the author to fill.
 7. Reread your own output with the same checks. Five tells survive a rewrite more often than the rest, so search for them by name: a not-X-but-Y contrast, a one-line closer, an em dash, a triad, a bold label. The corrected text must pass the rules it enforces.
@@ -29,9 +29,7 @@ For a short text (an email, a message, one paragraph), apply the rules without t
 
 When editing a file rather than pasted text, change the prose only. Code blocks, inline code, commands, paths, frontmatter, data, and link targets stay as they are, even when a path or a command contains a word the checks would flag.
 
-## Audit without rewriting
-
-When the author asks whether a text reads as AI-written, or wants its tells flagged without a rewrite, report instead of editing. For each tell, quote the line, name the pattern, and give the fix in a few words. Skip the rewrite and the score, and don't guess who wrote the text: detectors guess, while a named pattern is evidence the author can check for themselves. Offer the edit afterward.
+For an audit (the author asks whether a text reads as AI-written, or wants its tells flagged without a rewrite), report instead of editing. For each tell, quote the line, name the pattern, and give the fix in a few words. Skip the rewrite and the score, and don't guess who wrote the text: detectors guess, while a named pattern is evidence the author can check for themselves. Offer the edit afterward.
 
 ## Special case: UI strings
 
@@ -187,11 +185,7 @@ Count the quick checks that still fail on the delivered text first, because the 
 | Authenticity | Sounds like a person who writes well, not a model or a brand? Would the author recognize it as their own? |
 | Economy | Anything cuttable without breaking the rhythm? |
 
-Rewrite once if any check still fails or the total falls below 35/50, then deliver the better version with its score and the number of checks still failing. Don't loop.
-
-## Examples
-
-See [references/examples.md](references/examples.md) for before/after transformations.
+One rewrite at most, triggered by a failing check or a total below 35/50 (step 6 of the process); don't loop.
 
 ## License and attribution
 
