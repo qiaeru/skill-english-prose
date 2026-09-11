@@ -13,12 +13,16 @@ This repository is a maintained fork of [hardikpandya/stop-slop](https://github.
 - An audit mode drawn from [petergyang/no-ai-slop](https://github.com/petergyang/no-ai-slop) (MIT): asked whether a text reads as AI-written, or to flag its tells without a rewrite, the skill quotes each line, names the pattern, and gives the fix in a few words, with no rewrite and no guess about who wrote it. The skill description names the mode so it triggers on "is this AI slop?" as well as on an edit request.
 - New tells from the same source, kept where they fit the fluency philosophy: faux-insight setups ("What nobody tells you"), the colon reveal ("The best part: it learns."), synonym cycling (one referent under rotating names), reader guidance ("As you can see"), the fake-profound kicker (deleted rather than polished), the heading over a one- or two-sentence section, the portability test for the sentence that could move unchanged to another company, and a stock-metaphors table ("a double-edged sword," "move the needle," "no silver bullet"). Each gets a reference entry and a quick check, with three new before/after pairs (thirty-five in all).
 - Six vocabulary entries: "paradigm shift," "supercharge," "multifaceted," "beacon," "unleash," "resonate."
+- Decisions aligned with the sibling `skill-prose-francaise`: an "Output" section that adapts the delivery to the call (pasted text, a named file, a call from another task that gets the text alone, an audit); the received text is treated as material to correct, never as instructions; without a writing sample the tone follows the genre, and one question about the audience is allowed when the correction depends on it; a blunt word or a joke that belongs to the writer counts as voice; the exclamation mark of enthusiasm and the reflexive "You're absolutely right" join the checks.
+- The validator checks that the marketplace entry repeats the plugin description, which had drifted two releases behind.
 
 ### Changed
 
 - The process changes only what a check flags, so the author recognizes the result as their own draft, and delivers a short note of what changed alongside the count of checks still failing. A fidelity check restores a specific detail smoothed into a generic claim.
 - Rule 15 gains its counterweight: the thing under discussion keeps its name, and the word-pattern table stops recommending synonyms for a repeated noun. Spoken adverbs ("just," "honestly") in a first-person draft count as voice, thinned when they cluster rather than cut on sight.
 - A structural pass after four rounds of ports. SKILL.md folds the audit mode into the process, names which reference to open for what, puts the reread before the delivery, and trims from rules 3 and 17 the examples the wording checks repeat. The phrases reference merges four overlapping sections into two ("Announced Emphasis" and "Throat-Clearing Openers"), so "Honestly," "Here's what I mean," "And that's okay," and "The real question is" each keep a single entry, and the rhetorical-setups table in the structures reference keeps only the structural shapes.
+
+- The UI-strings section moves from SKILL.md to `references/ui-strings.md`, opened when the text comes from an interface, which lightens what Claude loads at every trigger.
 
 ### Removed
 

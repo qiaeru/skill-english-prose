@@ -10,7 +10,7 @@
     {
       "name": "writing-english-prose",
       "source": "./",
-      "description": "Remove AI writing patterns from English prose. Use when drafting, writing, editing, reviewing, or proofreading US-English text. Replaces AI tells with fluent, natural American English."
+      "description": "Remove AI writing patterns from English prose, or flag them without rewriting. Use when drafting, editing, reviewing, or proofreading US-English text (essays, posts, docs, emails, UI strings, locale files), and when asked whether a text sounds AI-written. Fluent, natural American English."
     }
   ]
 }

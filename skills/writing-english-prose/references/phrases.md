@@ -362,7 +362,7 @@ Stock lines that pad the top and bottom of a generated email. Open with the reas
 
 Assistant-voice remnants that mark text as model output. Delete on sight.
 
-- "Great question"
+- "Great question" / "You're absolutely right" (reflexive agreement before the answer)
 - "Certainly!"
 - "Absolutely!"
 - "I hope this helps"

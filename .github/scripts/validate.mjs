@@ -168,7 +168,16 @@ if (skillDescription && manifest.description !== skillDescription) {
   );
 }
 
-// 6. LICENSE keeps both copyright lines, the upstream author for the
+// 6. The marketplace entry repeats the plugin description, since the
+// install listing reads the first and the runtime the second.
+const marketplace = JSON.parse(read('.claude-plugin/marketplace.json'));
+for (const entry of marketplace.plugins ?? []) {
+  if (entry.name === manifest.name && entry.description !== manifest.description) {
+    report('.claude-plugin/marketplace.json', null, `description of plugin ${entry.name} differs from plugin.json`);
+  }
+}
+
+// 7. LICENSE keeps both copyright lines, the upstream author for the
 // original and the fork author for the modifications; a badly resolved
 // upstream merge can drop one without anyone noticing.
 const license = read('LICENSE');
@@ -181,4 +190,4 @@ if (errors.length > 0) {
   for (const e of errors) console.error(`  ${e}`);
   process.exit(1);
 }
-console.log(`Invariants checked on ${proseFiles.length} files: frontmatter, links, typography, mentions, version, description, license.`);
+console.log(`Invariants checked on ${proseFiles.length} files: frontmatter, links, typography, mentions, version, descriptions, license.`);

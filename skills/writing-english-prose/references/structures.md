@@ -269,6 +269,7 @@ Decoration doing the work the sentence should do.
 | Semicolons splicing sentences that wanted a period | Period. Reserve the semicolon for two balanced, related clauses |
 | Colon as pure announcement ("Here's the key insight:") | Cut the announcement; state the insight |
 | Ellipses for trailing drama... | End the sentence |
+| Exclamation marks of enthusiasm ("Exciting news!", "Let's go!") | A period; keep the exclamation for a sentence that exclaims |
 | Title Case On Common Nouns mid-sentence ("our Marketing Team") | Lowercase; reserve capitals for proper nouns |
 | Missing serial comma ("A, B and C") | US convention: "A, B, and C" |
 | Hyphen kept on a compound after its noun ("the report is high-quality," "runs in real-time") | Hyphenate before the noun ("a high-quality report") and drop it after ("the report is high quality") |
