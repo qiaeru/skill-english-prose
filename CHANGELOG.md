@@ -8,6 +8,20 @@ This repository is a maintained fork of [hardikpandya/stop-slop](https://github.
 
 ## [Unreleased]
 
+### Added
+
+- An audit mode drawn from [petergyang/no-ai-slop](https://github.com/petergyang/no-ai-slop) (MIT): asked whether a text reads as AI-written, or to flag its tells without a rewrite, the skill quotes each line, names the pattern, and gives the fix in a few words, with no rewrite, no score, and no guess about who wrote it.
+- New tells from the same source, kept where they fit the fluency philosophy: faux-insight setups ("What nobody tells you," "The part everyone misses"), the colon reveal ("The best part: it learns."), synonym cycling (one referent under rotating names), reader guidance ("As you can see," "This distinction matters"), the fake-profound kicker (deleted rather than polished, so the piece ends on its last concrete sentence), the heading over a one- or two-sentence section, and four vocabulary entries ("paradigm shift," "supercharge," "multifaceted," "beacon"). Each gets a reference entry and a quick check.
+- The portability test for the generic sentence, one that could move unchanged to another company, product, or person, in rule 7, the vague-declaratives entry, and the substance checks.
+- Three before/after pairs (faux-insight setups with colon reveals, synonym cycling, reader guidance with a kicker), bringing the examples reference to thirty-five.
+- A "Stock Metaphors" table in the phrases reference ("a double-edged sword," "no silver bullet," "move the needle," "at the intersection of," "a symphony of," the figurative "journey," "think of it as" as a reflex), folded into rule 14 and the pull-quote check, plus "unleash" and "resonate" in the vocabulary table.
+
+### Changed
+
+- The skill description names the audit mode ("or flag them without rewriting," "when asked whether a text sounds AI-written") so the skill triggers on "is this AI slop?" as well as on an edit request; the plugin manifest carries the same description.
+- The process changes only what a check flags, so the author recognizes the result as their own draft, and delivers a short note of what changed alongside the score. A fidelity check restores a specific detail smoothed into a generic claim, and the Authenticity axis asks whether the author would recognize the text as their own.
+- Rule 15 gains its counterweight: the thing under discussion keeps its name, and the word-pattern table stops recommending synonyms for a repeated noun. Spoken adverbs ("just," "honestly") in a first-person draft count as voice, thinned when they cluster rather than cut on sight.
+
 ## [1.4.0] - 2026-09-09
 
 ### Added

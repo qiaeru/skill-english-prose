@@ -1,6 +1,6 @@
 ---
 name: writing-english-prose
-description: Remove AI writing patterns from English prose. Use when drafting, writing, editing, reviewing, or proofreading US-English text (essays, posts, docs, emails, UI strings, locale files). Replaces AI tells with fluent, natural American English: concrete subjects, real verbs, plain words, varied rhythm.
+description: Remove AI writing patterns from English prose, or flag them without rewriting. Use when drafting, editing, reviewing, or proofreading US-English text (essays, posts, docs, emails, UI strings, locale files), and when asked whether a text sounds AI-written. Fluent, natural American English.
 ---
 
 # Writing English Prose
@@ -19,15 +19,19 @@ For a full edit or rewrite:
 
 1. Read the whole text before correcting anything; rhythm, repetition, and cadence tells only show across paragraphs.
 2. Fix the form, not the facts. Add no number, cause, actor, or example the source doesn't contain; when the source stays vague, keep the rewrite sober or flag the gap to the author rather than fill it. A gap the text itself admits ("details are not widely documented") never gets a plausible guess in its place.
-3. Keep the length close to the original. Joining fragments and cutting filler move words around; they don't add them.
+3. Change only what a check flags. A sentence that already passes stays as the author wrote it, even when you would phrase it differently, and the length stays close to the original: joining fragments and cutting filler move words around; they don't add them. The author should recognize the result as their own draft.
 4. Apply the core rules, opening the references as needed.
 5. Run the quick checks on the result and count the ones that still fail.
-6. Score on the five axes. Rewrite once if any check still fails or the total falls below 35/50, then deliver the better version with its score and the number of checks still failing.
+6. Score on the five axes. Rewrite once if any check still fails or the total falls below 35/50, then deliver the better version with its score, the number of checks still failing, and a short note of what changed, including any gap left for the author to fill.
 7. Reread your own output with the same checks. Five tells survive a rewrite more often than the rest, so search for them by name: a not-X-but-Y contrast, a one-line closer, an em dash, a triad, a bold label. The corrected text must pass the rules it enforces.
 
 For a short text (an email, a message, one paragraph), apply the rules without the scoring grid.
 
 When editing a file rather than pasted text, change the prose only. Code blocks, inline code, commands, paths, frontmatter, data, and link targets stay as they are, even when a path or a command contains a word the checks would flag.
+
+## Audit without rewriting
+
+When the author asks whether a text reads as AI-written, or wants its tells flagged without a rewrite, report instead of editing. For each tell, quote the line, name the pattern, and give the fix in a few words. Skip the rewrite and the score, and don't guess who wrote the text: detectors guess, while a named pattern is evidence the author can check for themselves. Offer the edit afterward.
 
 ## Special case: UI strings
 
@@ -35,7 +39,7 @@ An interface file (application labels, locale files) mixes two registers; split 
 
 **Micro-labels**: buttons, tabs, menu items, field labels, short titles, one-line notifications and errors. These are fragments, not sentences, so the sentence-architecture rules (flow, fragmentation, contrasts, rhythm) don't apply. Check only vocabulary and conventions: AI vocabulary, jargon, wordy constructions, and capitalization. Capitalization follows the platform convention (Title Case on Apple platforms, sentence case on Material and most of the web); pick one and keep it consistent across the product.
 
-**Rule 15 inverts on micro-labels.** In prose you vary the lexicon; in an interface the same action keeps the same word everywhere. If "Delete" labels one button, never alternate it with "Remove" or "Erase" elsewhere: users learn the interface's words, and consistency beats variety.
+**The variety rule (15) inverts on micro-labels.** In prose you vary the lexicon; in an interface the same action keeps the same word everywhere. If "Delete" labels one button, never alternate it with "Remove" or "Erase" elsewhere: users learn the interface's words, and consistency beats variety.
 
 **Longer strings**: descriptions, help text, confirmation bodies, explanatory error messages, onboarding copy. As soon as a string forms one or more full sentences, apply the whole skill.
 
@@ -53,7 +57,7 @@ An interface file (application labels, locale files) mixes two registers; split 
 
 6. **No false agency.** Complaints don't become fixes, decisions don't emerge, data doesn't tell. Name the person the text points to (the sender, the team named earlier). When the text addresses a reader and no one else fits, use "you"; when it names no one, keep the impersonal or passive form rather than invent an actor.
 
-7. **Be specific.** No vague declaratives ("the implications are significant"). Name the implication, with the number or concrete object the source provides, even if the sentence gets longer. Never invent one to sound concrete: strip the vagueness and let the author supply the fact. The same restraint applies to a vague connection ("associated with," "linked to") and an unnamed authority ("experts argue"): name the relationship or the source the text gives, and when it gives none, keep the vague word rather than invent a role or a citation.
+7. **Be specific.** No vague declaratives ("the implications are significant"). Name the implication, with the number or concrete object the source provides, even if the sentence gets longer. Never invent one to sound concrete: strip the vagueness and let the author supply the fact. The same restraint applies to a vague connection ("associated with," "linked to") and an unnamed authority ("experts argue"): name the relationship or the source the text gives, and when it gives none, keep the vague word rather than invent a role or a citation. The portability test catches the generic sentence: if it could move unchanged to another company, product, or person, it says nothing about this one; cut it, or tie it to the subject with a fact the source gives.
 
 8. **Put the reader in the room.** "You" beats "people," a scene beats a generalization, the lecturer-from-a-distance voice ("This happens because...") goes.
 
@@ -65,11 +69,11 @@ An interface file (application labels, locale files) mixes two registers; split 
 
 12. **Don't answer your own rhetorical questions.** "The result? Faster builds." is a transition wearing a costume. State it: "Builds got faster."
 
-13. **Trust readers.** State facts directly; skip softening, justification, and hand-holding. Cut "it's important to note," "needless to say," and every sentence that tells readers what they're about to understand.
+13. **Trust readers.** State facts directly; skip softening, justification, and hand-holding. Cut "it's important to note," "needless to say," and every sentence that tells readers what they're about to understand. The same goes for reader guidance mid-text ("As you can see," "This distinction matters," "in other words" before a restatement): if the point is clear, the label is noise; if it isn't, add the support the reader is missing.
 
-14. **Cut quotables.** If a sentence sounds like a pull-quote or a slide title, or fills an aphorism template ("X is the currency of Y," "X becomes a trap"), rewrite it as a working sentence with the specific claim.
+14. **Cut quotables.** If a sentence sounds like a pull-quote or a slide title, fills an aphorism template ("X is the currency of Y," "X becomes a trap"), or leans on a stock metaphor ("a double-edged sword," "move the needle"), rewrite it as a working sentence with the specific claim.
 
-15. **Vary everything that repeats.** Sentence lengths, paragraph endings, item counts in lists, sentence openers. Three matching lengths in a row, or every paragraph landing on a zinger, reads machine-made.
+15. **Vary everything that repeats.** Sentence lengths, paragraph endings, item counts in lists, sentence openers. Three matching lengths in a row, or every paragraph landing on a zinger, reads machine-made. The counterweight: the thing under discussion keeps its name. Rotating "the agent," "the assistant," and "the tool" for one referent is elegant variation, and the reader wonders whether there are three; restructure so the noun comes up less often, or repeat it.
 
 16. **Follow US conventions.** Serial comma ("A, B, and C"). US spellings ("color," "organize," "toward"). Double quotation marks, with commas and periods inside. No Title Case on common nouns mid-sentence ("our marketing team," not "our Marketing Team").
 
@@ -81,7 +85,7 @@ An interface file (application labels, locale files) mixes two registers; split 
 
 Most tells are about concentration, not the single instance. A lone "comprehensive," one "navigate," one stacked hedge is how people write; the same word four times in a paragraph is the tell. Weight a pattern by how thickly it clusters, and don't hunt a borderline word through an otherwise-human page. The loud vocabulary ("delve," "tapestry," "leverage," "seamless") still goes on sight, but the borderline words that double as ordinary English ("robust," "comprehensive," "navigate," "utilize," "ensure," "key") earn a fix when they cluster, not on a lone hit. Two tells are the exception, flagged wherever they appear and counted on a single instance: the em dash, and leftover assistant boilerplate ("As an AI language model"). Either one, even once, is a real signal.
 
-Leave a watched phrase alone inside a quotation, a title, a proper name, or a passage that discusses the phrase rather than uses it. Keep what carries the writer's voice even when it brushes a check: an odd specific detail, an admitted mixed feeling ("mostly good, and it still bothers me"), a self-correction in parentheses, a dated reference, a first-person choice the writer could defend. Removing tells is half the job; the result must still sound like a person.
+Leave a watched phrase alone inside a quotation, a title, a proper name, or a passage that discusses the phrase rather than uses it. Keep what carries the writer's voice even when it brushes a check: an odd specific detail, an admitted mixed feeling ("mostly good, and it still bothers me"), a self-correction in parentheses, a dated reference, a spoken "just" or "honestly" in a first-person draft, a first-person choice the writer could defend. Removing tells is half the job; the result must still sound like a person.
 
 ## Quick checks
 
@@ -91,6 +95,7 @@ Run each group before delivering. The list is part of the skill on the same foot
 
 - Number, cause, actor, or example that the source doesn't contain? Remove it, or flag the gap to the author.
 - Text noticeably longer than the original, or a claim shifted by the rewrite? Tighten and restore.
+- Specific detail smoothed into a generic claim ("cut review time from thirty minutes to eight" turned into "improved productivity")? Restore the number or the name.
 - Gap filled with a guess ("likely grew up in," "appears to have been founded in the 1990s") or a knowledge disclaimer ("details are limited," "based on available information")? Say what the source doesn't show, or cut the sentence.
 - Unnamed authority ("experts agree," "observers note," "industry reports") or a list of outlets propping up a claim? Use the source the text names and what it said; otherwise cut.
 
@@ -117,6 +122,7 @@ Run each group before delivering. The list is part of the skill on the same foot
 - Pleonasm ("advance planning," "end result," "collaborate together," "each and every")? Cut the redundant half.
 - Copula dodge ("serves as," "functions as," "represents," "features," "boasts")? Use "is," "are," "has."
 - "Moreover," "Furthermore," "Additionally" opening sentences? At most one connector opener per paragraph; usually just start the sentence.
+- One referent under rotating names ("the agent," "the assistant," "the tool")? Keep the clear word and repeat it, or restructure so it comes up less often.
 
 ### Actors and voice
 
@@ -131,7 +137,7 @@ Run each group before delivering. The list is part of the skill on the same foot
 - Objection nobody raised ("I'm not saying," "To be clear," "Don't get me wrong," "One might be tempted to")? Cut the defense; keep an objection only when the text attributes it or a reader would weigh it.
 - "Less X, more Y" or "Think X, not Y" see-saw? Write the full sentence.
 - Negative listing ("It's not A. It's not B. It's C.")? State C.
-- Rhetorical question answered immediately ("The catch? ...")? State it.
+- Rhetorical question answered immediately ("The catch? ..."), or its colon twin ("The best part: it learns.")? State it in a plain sentence.
 - Pseudo-cleft opener ("What makes this hard is...")? Name the thing: "The constraint is..."
 - Learned litotes ("not without merit," "it is not uncommon for," "cannot be ignored")? Affirm: "useful," "often," "matters."
 - Participial consequence tail (", ensuring...," ", making it...," ", allowing you to...")? End the sentence; give the consequence its own sentence and actor, or cut it.
@@ -139,8 +145,9 @@ Run each group before delivering. The list is part of the skill on the same foot
 ### Openers, closers, and boilerplate
 
 - Throat-clearing or fake-relatability opener ("Here's the thing," "Honestly," "Look, I get it")? Cut to the point.
+- Faux-insight setup ("What nobody tells you," "What most people get wrong," "The part everyone misses")? Cut the setup; the claim stands on its own.
 - Marketing opener ("In a world where," "In today's fast-paced," "Whether you're X or Y")? Cut or name the actual audience.
-- Cliché closer ("In conclusion," "At the end of the day," "X is here to stay," "Only time will tell")? End on substance.
+- Cliché closer ("In conclusion," "At the end of the day," "X is here to stay," "Only time will tell"), or a kicker line turning the point into a metaphor or an aphorism? Delete it rather than polish it, and end on the last concrete sentence.
 - Email boilerplate ("I hope this email finds you well," "I wanted to reach out," "Please don't hesitate to")? Open with the reason you're writing; close with the concrete next step.
 - Assistant boilerplate ("As an AI language model"), reflexive flattery ("Great question"), or a trailing "Want me to..." offer? Delete every trace of the assistant.
 
@@ -148,9 +155,11 @@ Run each group before delivering. The list is part of the skill on the same foot
 
 - Vague declarative ("The implications are significant")? Name the specific implication from the source, or cut the sentence; don't make one up.
 - Paragraph that restates the prompt or could be cut with nothing lost? Make a real claim or delete it.
+- Sentence that could move unchanged to another company, product, or person? Cut it, or tie it to this subject with a fact the source gives.
+- Reader guidance ("As you can see," "This distinction matters," "That last part matters more than it sounds," a redundant "in other words")? Cut the label; add the support if the point isn't clear.
 - Vague connection ("associated with," "linked to," "tied to")? Name the relationship the source gives; if it gives none, keep the vague word rather than invent a role.
 - Inflated significance ("marking a pivotal moment," "plays a key role," "setting the stage for," "lasting legacy"), or a stock "despite these challenges, X continues to thrive" paragraph? Keep the fact, drop the significance, and end on the last concrete fact.
-- Pull-quote sentence or aphorism template ("X is the currency of Y," "X becomes a trap," "the architecture of")? Rewrite as a working sentence.
+- Pull-quote sentence, aphorism template ("X is the currency of Y," "X becomes a trap," "the architecture of"), or stock metaphor ("a double-edged sword," "a silver bullet," "move the needle")? Rewrite as a working sentence with the trade-off, the fix, or the gain.
 - Documentation describing what the current text replaced ("added to replace the old loop")? Describe the current behavior; history belongs in changelogs and migration guides.
 
 ### Typography, format, and conventions
@@ -158,7 +167,7 @@ Run each group before delivering. The list is part of the skill on the same foot
 - Em dash? Comma, period, or parentheses.
 - Bold emphasis or emoji in prose? Remove; rewrite if the word needs weight.
 - Bold-label lead-in ("**Speed:** ..."), `---` divider, or emoji or arrow (→) as a bullet or heading? Drop the label, use paragraph breaks, use plain markers.
-- Heading restated by its first sentence, or a top-level heading repeating the document title? Cut the repeat.
+- Heading restated by its first sentence, a top-level heading repeating the document title, or a heading over a one- or two-sentence section? Cut the repeat; merge the short section into its neighbor.
 - Hyphen kept on a compound after its noun ("the report is high-quality")? Hyphenate before the noun only.
 - Semicolon where a period flows better? Replace. Keep it only to balance two related clauses.
 - Colon that only announces ("Here's the key insight:")? Cut the announcement.
@@ -175,7 +184,7 @@ Count the quick checks that still fail on the delivered text first, because the 
 | Flow | Do sentences connect and breathe, or stack as fragments or bloat? |
 | Directness | Statements, or announcements and setups? |
 | Concreteness | Named actors, numbers, specific objects, all taken from the source? |
-| Authenticity | Sounds like a person who writes well, not a model or a brand? |
+| Authenticity | Sounds like a person who writes well, not a model or a brand? Would the author recognize it as their own? |
 | Economy | Anything cuttable without breaking the rhythm? |
 
 Rewrite once if any check still fails or the total falls below 35/50, then deliver the better version with its score and the number of checks still failing. Don't loop.

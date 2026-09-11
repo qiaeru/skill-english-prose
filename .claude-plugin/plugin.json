@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
   "name": "writing-english-prose",
-  "description": "Remove AI writing patterns from English prose. Use when drafting, writing, editing, reviewing, or proofreading US-English text (essays, posts, docs, emails, UI strings, locale files). Replaces AI tells with fluent, natural American English: concrete subjects, real verbs, plain words, varied rhythm.",
+  "description": "Remove AI writing patterns from English prose, or flag them without rewriting. Use when drafting, editing, reviewing, or proofreading US-English text (essays, posts, docs, emails, UI strings, locale files), and when asked whether a text sounds AI-written. Fluent, natural American English.",
   "keywords": ["writing", "prose", "english", "editing", "ai-tells", "skill"],
   "version": "1.4.0",
   "author": {

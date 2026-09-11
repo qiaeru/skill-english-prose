@@ -103,8 +103,10 @@ Asking a question only to answer it in the next breath. A transition wearing a c
 | "The best part? It's free." | Ad copy |
 | "Why does this matter? Because..." | Self-interview |
 | "So what's the answer? Simple." | Double offense |
+| "The best part: it learns." | The colon reveal, same move with the question removed |
+| "The detail that makes it work: a separate agent grades it." | Noun phrase, colon, dramatic payoff |
 
-**Instead:** State it: "Builds got faster." A genuine question that the next several paragraphs actually explore can stay; the tell is question-then-instant-answer.
+**Instead:** State it: "Builds got faster." A genuine question that the next several paragraphs actually explore can stay; the tell is question-then-instant-answer. The colon reveal gets the same fix, a plain sentence ("A separate agent grades the output, which is what makes it work"); keep colons for lists, labels, and quotes.
 
 ## Rhetorical Setups
 
@@ -200,6 +202,7 @@ A comma plus an "-ing" clause hangs a consequence or a judgment on the end of th
 | "7 ways to X" / "5 signs that Y" / "N things..." (listicle headlines) | Content-farm scaffolding; write the piece, not the countdown |
 | Fixed intro / three body paragraphs / "in summary" conclusion | A template, not a structure; let the order follow the argument, and most pieces need no recap |
 | A heading restated by its first sentence ("## Performance," then "Speed matters.") | Runway before the content; cut the restatement |
+| A heading over a one- or two-sentence section | Structure heavier than its content; merge the section into a neighbor or drop the heading |
 | A top-level heading that repeats the document title | The title stated once is enough |
 | Documentation describing what the current text replaced ("added to replace the old loop") | The reader needs the current behavior; history belongs in changelogs and migration guides |
 
@@ -300,4 +303,5 @@ Models convert reasoning into lists because lists are easy to generate. A bullet
 | Pattern | Problem |
 | --- | --- |
 | Lazy extremes (every, always, never, everyone, everybody, nobody) | False authority. Use specifics instead of sweeping claims. |
-| Same noun four times in five sentences | Vary, or restructure so the noun appears once |
+| Same noun four times in five sentences | Restructure so the noun comes up less often (a pronoun, a merged sentence); don't rotate synonyms |
+| Synonym cycling: one referent under rotating names ("the agent reviews the draft, the assistant scores it, the tool suggests fixes") | Elegant variation reads as three things; keep the clear word and repeat it |

@@ -326,3 +326,33 @@ Each "After" shows fluent, natural US English: full sentences that connect and b
 > "She founded the Northside Food Bank in 2015 and still runs it. It is the district's main distribution point and has more than forty volunteers."
 
 **Changes:** "Associated with" gave way to the relationship the source itself names a few words later; "serves as" and "boasts" became "is" and "has." Every name, date, and count is the source's own.
+
+## Example 33: Faux-Insight Setups and Colon Reveals
+
+**Before:**
+> "Here's what nobody tells you about onboarding: the first week sets the tone. The part most people miss: new hires copy whoever sits next to them. The best part: you can choose who that is."
+
+**After:**
+> "The first week of onboarding sets the tone. New hires copy whoever sits next to them, and you can choose who that is."
+
+**Changes:** Three setups announced an insight each time ("what nobody tells you," "the part most people miss," "the best part") and hung each payoff on a colon. The three claims stand on their own as two plain sentences, side by side as the source left them.
+
+## Example 34: Synonym Cycling
+
+**Before:**
+> "The agent reads each pull request as it opens. The assistant then leaves a comment on any file over 500 lines. Finally, the bot posts a summary to the channel, and the tool closes stale requests after a week."
+
+**After:**
+> "The agent reads each pull request as it opens, comments on any file over 500 lines, and posts a summary to the channel. After a week, it closes stale requests."
+
+**Changes:** One program carried four names in four sentences (agent, assistant, bot, tool), and a reader could take them for four programs. The rewrite keeps the first name and lets a shared subject and a pronoun carry the rest; the 500-line threshold and the one-week delay are the source's own.
+
+## Example 35: Reader Guidance and Fake-Profound Kicker
+
+**Before:**
+> "We moved the nightly build to run on merge, and review time dropped from thirty minutes to eight. Engineers stopped batching their changes. That last part matters more than it sounds. In the end, speed is a culture, not a setting."
+
+**After:**
+> "We moved the nightly build to run on merge, and review time dropped from thirty minutes to eight. Engineers stopped batching their changes."
+
+**Changes:** The guidance line told the reader how much weight to give the sentence before it, and the closing aphorism dressed two facts as a lesson, with a contrast on the way out. Both go rather than get rewritten into a better line, so the piece ends on its last concrete sentence, and the thirty-to-eight figure stays exactly as the source gave it.

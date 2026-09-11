@@ -36,6 +36,17 @@ These add no meaning. Delete them.
 - "Read that again."
 - "And honestly? That's the point."
 
+## Faux-Insight Setups
+
+A setup that casts the writer as the one expert in the room, then delivers an ordinary claim. Cut the setup; the claim stands on its own. "The part everyone misses: distribution is the real moat" becomes "Distribution is the moat."
+
+- "What nobody tells you (about X)" / "Here's what nobody tells you"
+- "And that's the part nobody tells you"
+- "What most people get wrong"
+- "The part everyone misses" / "The part most people skip"
+- "Most people don't realize"
+- "The secret is" / "The thing nobody says out loud"
+
 ## Marketing Openers
 
 Openers that address an imaginary market segment instead of a reader. Cut them, or name the actual audience in a working sentence.
@@ -61,6 +72,20 @@ Adjectives from a tourism board or a product page, attached most often to places
 - "a commitment to excellence"
 - "groundbreaking" (figurative)
 
+## Stock Metaphors
+
+A worn image standing in for the specific claim. Each one has a plain sentence underneath; write that sentence.
+
+| Avoid | Use instead |
+| --- | --- |
+| A double-edged sword | Name the gain and the cost |
+| (No) silver bullet / magic bullet | Name what the fix covers and what it leaves |
+| Move the needle | Name the number that changed |
+| At the intersection of X and Y | Say what the thing does with both |
+| A symphony / a dance / a ballet of | Name the parts and how they fit |
+| A journey (figurative: "your learning journey") | Process, path; or name the steps |
+| Think of it as [analogy] (as a reflex) | Describe the thing; keep an analogy that explains a mechanism |
+
 ## Cliché Closers
 
 Endings that gesture at significance instead of landing on substance. End on a concrete point instead.
@@ -75,6 +100,8 @@ Endings that gesture at significance instead of landing on substance. End on a c
 - "Watch this space"
 - "...and that's a good thing."
 - "So what are you waiting for?"
+
+The kicker line is the same reflex without a stock phrase: a final metaphor, aphorism, or mic-drop sentence that turns the point into a lesson ("In the end, speed is a culture, not a setting"). Delete it rather than rewrite it into a better metaphor, and end on the last concrete sentence the draft already has; when the piece still needs closure, add a plain takeaway or the next step.
 
 ## AI Vocabulary
 
@@ -97,7 +124,7 @@ Words a model reaches for and a person rarely does. Prefer the short, plain word
 | Myriad / a plethora of | Many, dozens of |
 | Embark on | Start |
 | Elevate | Improve, raise |
-| Unlock (potential) | Name the concrete gain |
+| Unlock (potential) / unleash | Name the concrete gain |
 | Harness (the power of) | Use |
 | Empower | Let; name what they can now do |
 | Holistic | Whole (or cut) |
@@ -110,6 +137,10 @@ Words a model reaches for and a person rarely does. Prefer the short, plain word
 | A testament to | Shows |
 | A rich tapestry | Cut; name the parts |
 | Game-changer | Name what changed |
+| Paradigm shift | Name what changed |
+| Supercharge | Speed up, improve; or name the gain |
+| Multifaceted | Complex; or name the facets |
+| A beacon of (hope, innovation) | Cut; say what it did |
 | Landscape (context) | Situation, field |
 | Navigate (challenges) | Handle, address |
 | Deep dive | Close look, analysis |
@@ -123,6 +154,7 @@ Words a model reaches for and a person rarely does. Prefer the short, plain word
 | Quietly (as a significance cue: "quietly shipped") | Cut |
 | Aims to | Say what it does, not what it intends |
 | Vibrant | Name what is actually happening there |
+| Resonate (with) | Appeal to, matter to; or say who agreed and why |
 | Nestled (in the heart of) | In, near |
 
 ## Business Jargon
@@ -226,6 +258,8 @@ Cut intensifiers that add no meaning:
 - "incredibly"
 
 Keep adverbs that change the meaning of the verb: "slowly," "twice," "rarely," "yesterday," "almost." The test: if cutting the adverb changes nothing, cut it.
+
+In a first-person draft, "just," "honestly," and "actually" can be the writer's spoken rhythm rather than padding. Thin the cluster and keep the one that sounds like them; a draft scrubbed of every spoken adverb stops sounding like a person.
 
 The sentence adverbs that grade a whole statement ("interestingly," "importantly," "crucially," "notably") are the same reflex at the head of the sentence: they announce that the fact matters instead of showing it. Cut them and let the fact land.
 
@@ -350,7 +384,6 @@ False intimacy or manufactured sincerity:
 - "I promise"
 - "They exist, I promise"
 - "Trust me on this"
-- "And that's the part nobody tells you"
 - "Honestly," (opening a sentence to perform candor)
 - "Look, I get it"
 
@@ -363,6 +396,15 @@ Announcing difficulty or significance rather than demonstrating it:
 - "This is what X actually looks like"
 - "actually matters"
 - "cannot be overstated"
+
+Reader guidance is the same move aimed at the reader instead of the subject: a line that steps outside the text to say what to notice or how much weight to give it.
+
+- "As you can see"
+- "This distinction matters" / "That last part matters more than it sounds"
+- "The key point is" / "The takeaway here is"
+- "In other words," before a restatement the reader didn't need
+
+If the point is clear, delete the aside. If it isn't, add the fact or the example that makes it clear, and drop the label.
 
 ## Inflated Significance
 
@@ -412,8 +454,10 @@ Sentences that announce importance without naming the specific thing. Kill these
 - "This is the deepest problem"
 - "The stakes are high"
 - "The consequences are real"
-- "This changes everything"
+- "This changes everything" / "This is huge"
 
 If a sentence says something is important/deep/structural without showing the specific thing, cut it or replace it with the specific thing.
 
 The same emptiness scales to the paragraph: prose that is fluent, grammatical, and restates the prompt without making a claim. Test each paragraph by deleting it; if nothing is lost, it said nothing. Make a real claim or cut it.
+
+The portability test catches the quieter version. If a sentence could move unchanged to another company, product, country, or person ("Our team is passionate about building tools people love"), it says nothing about this one. Cut it, or replace it with a fact, a mechanism, a consequence, or a judgment that only fits this subject, taken from what the source gives.
