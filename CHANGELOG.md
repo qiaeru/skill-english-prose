@@ -8,6 +8,8 @@ This repository is a maintained fork of [hardikpandya/stop-slop](https://github.
 
 ## [Unreleased]
 
+## [1.5.0] - 2026-09-11
+
 ### Added
 
 - An audit mode drawn from [petergyang/no-ai-slop](https://github.com/petergyang/no-ai-slop) (MIT): asked whether a text reads as AI-written, or to flag its tells without a rewrite, the skill quotes each line, names the pattern, and gives the fix in a few words, with no rewrite and no guess about who wrote it. The skill description names the mode so it triggers on "is this AI slop?" as well as on an edit request.
@@ -21,7 +23,6 @@ This repository is a maintained fork of [hardikpandya/stop-slop](https://github.
 - The process changes only what a check flags, so the author recognizes the result as their own draft, and delivers a short note of what changed alongside the count of checks still failing. A fidelity check restores a specific detail smoothed into a generic claim.
 - Rule 15 gains its counterweight: the thing under discussion keeps its name, and the word-pattern table stops recommending synonyms for a repeated noun. Spoken adverbs ("just," "honestly") in a first-person draft count as voice, thinned when they cluster rather than cut on sight.
 - A structural pass after four rounds of ports. SKILL.md folds the audit mode into the process, names which reference to open for what, puts the reread before the delivery, and trims from rules 3 and 17 the examples the wording checks repeat. The phrases reference merges four overlapping sections into two ("Announced Emphasis" and "Throat-Clearing Openers"), so "Honestly," "Here's what I mean," "And that's okay," and "The real question is" each keep a single entry, and the rhetorical-setups table in the structures reference keeps only the structural shapes.
-
 - The UI-strings section moves from SKILL.md to `references/ui-strings.md`, opened when the text comes from an interface, which lightens what Claude loads at every trigger.
 
 ### Removed
