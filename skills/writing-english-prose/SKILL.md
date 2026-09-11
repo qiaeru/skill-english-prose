@@ -22,14 +22,14 @@ For a full edit or rewrite:
 3. Change only what a check flags. A sentence that already passes stays as the author wrote it, even when you would phrase it differently, and the length stays close to the original: joining fragments and cutting filler move words around; they don't add them. The author should recognize the result as their own draft.
 4. Apply the core rules. Open [references/phrases.md](references/phrases.md) when vocabulary or stock phrases cluster, [references/structures.md](references/structures.md) for tells of shape and rhythm, and [references/examples.md](references/examples.md) to calibrate how far a rewrite should go.
 5. Run the quick checks on the result and count the ones that still fail.
-6. Score on the five axes. Rewrite once if any check still fails or the total falls below 35/50, then deliver the better version with its score, the number of checks still failing, and a short note of what changed, including any gap left for the author to fill.
-7. Reread your own output with the same checks. Five tells survive a rewrite more often than the rest, so search for them by name: a not-X-but-Y contrast, a one-line closer, an em dash, a triad, a bold label. The corrected text must pass the rules it enforces.
+6. Reread your own output with the same checks. Five tells survive a rewrite more often than the rest, so search for them by name: a not-X-but-Y contrast, a one-line closer, an em dash, a triad, a bold label. The corrected text must pass the rules it enforces.
+7. Do the final read below. Rewrite once if a check still fails or a question gets a "no," then deliver the better version with the number of checks still failing and a short note of what changed, including any gap left for the author to fill.
 
-For a short text (an email, a message, one paragraph), apply the rules without the scoring grid.
+For a short text (an email, a message, one paragraph), apply the rules and the checks; skip the counted report.
 
 When editing a file rather than pasted text, change the prose only. Code blocks, inline code, commands, paths, frontmatter, data, and link targets stay as they are, even when a path or a command contains a word the checks would flag.
 
-For an audit (the author asks whether a text reads as AI-written, or wants its tells flagged without a rewrite), report instead of editing. For each tell, quote the line, name the pattern, and give the fix in a few words. Skip the rewrite and the score, and don't guess who wrote the text: detectors guess, while a named pattern is evidence the author can check for themselves. Offer the edit afterward.
+For an audit (the author asks whether a text reads as AI-written, or wants its tells flagged without a rewrite), report instead of editing. For each tell, quote the line, name the pattern, and give the fix in a few words. Skip the rewrite, and don't guess who wrote the text: detectors guess, while a named pattern is evidence the author can check for themselves. Offer the edit afterward.
 
 ## Special case: UI strings
 
@@ -45,9 +45,9 @@ An interface file (application labels, locale files) mixes two registers; split 
 
 1. **Write sentences that flow.** Most sentences carry one idea in roughly 12 to 25 words and connect to their neighbors. A short sentence is a tool for emphasis; it works once per stretch, not as the default. Stacked fragments ("No fluff. No filler. Just results.") are as much a tell as bloat. The counterweight: joining every sentence with the same conjunction ("because" at every seam, "which" on every clause) is as mechanical as the fragments it replaced, so vary the connective and let some sentences stand alone. See [references/structures.md](references/structures.md).
 
-2. **Cut filler phrases.** Throat-clearing openers, emphasis crutches, marketing openers and closers, email boilerplate, chat artifacts. See [references/phrases.md](references/phrases.md).
+2. **Cut filler phrases.** Throat-clearing openers, announced emphasis, marketing openers and closers, email boilerplate, chat artifacts. See [references/phrases.md](references/phrases.md).
 
-3. **Use plain words.** Prefer the short Anglo-Saxon word to the Latinate one: "use" over "utilize," "start" over "embark on," "dig into" over "delve into." The AI vocabulary list ("leverage," "seamless," "robust," "tapestry," "testament"), the redefinition verbs that announce a change without naming it ("reimagine," "revolutionize"), and the pleonasms ("advance planning," "end result") are in [references/phrases.md](references/phrases.md).
+3. **Use plain words.** Prefer the short Anglo-Saxon word to the Latinate one ("use" over "utilize," "start" over "embark on"). The AI vocabulary, the redefinition verbs that announce a change without naming it, and the pleonasms are cataloged in [references/phrases.md](references/phrases.md); the wording checks below carry the examples.
 
 4. **Break formulaic structures.** Binary contrasts, negative listings, see-saw constructions, rhetorical setups, participial consequence tails, triad cadence, the learned litotes ("not without merit," "it is not uncommon for") that affirm by double negation, and the objection nobody raised ("I'm not saying," "One might be tempted to") that argues with an earlier draft. See [references/structures.md](references/structures.md).
 
@@ -75,7 +75,7 @@ An interface file (application labels, locale files) mixes two registers; split 
 
 16. **Follow US conventions.** Serial comma ("A, B, and C"). US spellings ("color," "organize," "toward"). Double quotation marks, with commas and periods inside. No Title Case on common nouns mid-sentence ("our marketing team," not "our Marketing Team").
 
-17. **Prefer verbs to nominalizations, and cut wordy connectors.** "Decide" over "make a decision," "analyze" over "conduct an analysis." "To" over "in order to," "because" over "due to the fact that," "can" over "is able to." Rewrite "There is/There are" openers around a real subject, and give impersonal directives ("It is essential to...") an actor. See [references/phrases.md](references/phrases.md).
+17. **Prefer verbs to nominalizations, and cut wordy connectors.** "Decide" over "make a decision," "to" over "in order to." Rewrite "There is/There are" openers around a real subject, and give impersonal directives an actor. See [references/phrases.md](references/phrases.md).
 
 18. **Don't over-bullet.** Reserve bullet lists for genuinely parallel items (steps, parameters, an inventory). Two or three ideas linked by reasoning belong in a connected paragraph; the prose carries the logic that a list strips out.
 
@@ -110,8 +110,7 @@ Run each group before delivering. The list is part of the skill on the same foot
 ### Wording
 
 - Empty intensifier ("very," "really," "truly," "incredibly," "deeply," "extremely")? Cut. Meaningful adverb ("slowly," "twice")? Keep.
-- Nominalization doing a verb's job ("make a decision," "conduct an analysis")? Use the verb.
-- "In order to," "due to the fact that," "prior to," "is able to"? Use "to," "because," "before," "can."
+- Nominalization doing a verb's job ("make a decision," "conduct an analysis") or wordy connector ("in order to," "due to the fact that," "prior to," "is able to")? Use the verb and the short word ("decide," "to," "because," "before," "can").
 - Hedges stacked ("arguably," "in many ways," "to some extent" in one paragraph)? Keep at most one.
 - Both-sides menu ("on one hand... on the other," "it depends") dodging a stance? Take a position, then name the trade-off.
 - Loud AI vocabulary ("delve," "leverage," "seamless," "landscape," "unlock," "harness," "empower," "elevate," "testament," "tapestry")? Replace with the plain word on sight.
@@ -173,19 +172,16 @@ Run each group before delivering. The list is part of the skill on the same foot
 - Listicle headline ("7 ways to," "5 signs that") or a fixed intro/three-body/"in summary" skeleton? Let the shape follow the argument.
 - Missing serial comma, British spelling, or Title Case on a common noun? Fix to US convention.
 
-## Scoring
+## Final read
 
-Count the quick checks that still fail on the delivered text first, because the score alone goes easy on its own rewrite. Then rate 1-10 on each axis.
+Count the quick checks that still fail on the delivered text; the count is the gate, since a self-assigned grade goes easy on its own rewrite. Then read the whole text once more against four questions the line-by-line checks can't ask, each answered yes or no:
 
-| Axis | Question |
-| --- | --- |
-| Flow | Do sentences connect and breathe, or stack as fragments or bloat? |
-| Directness | Statements, or announcements and setups? |
-| Concreteness | Named actors, numbers, specific objects, all taken from the source? |
-| Authenticity | Sounds like a person who writes well, not a model or a brand? Would the author recognize it as their own? |
-| Economy | Anything cuttable without breaking the rhythm? |
+- Does it sound like a person who writes well, not a model or a brand?
+- Would the author recognize it as their own draft?
+- Read aloud to a sharp colleague, does every sentence pass without a stumble?
+- Would cutting anything more break the rhythm?
 
-One rewrite at most, triggered by a failing check or a total below 35/50 (step 6 of the process); don't loop.
+A failing check or a "no" triggers one rewrite (step 7 of the process); don't loop.
 
 ## License and attribution
 
